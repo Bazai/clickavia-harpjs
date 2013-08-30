@@ -1,0 +1,15 @@
+!!! 5
+html.ng-app(lang='en')
+head
+  title Angular-RequireJS sample app
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet', type='text/css', media='all', href='app/css/app.css')
+  body
+    h1 AngularJS + RequireJS
+    ul.menu
+      li
+        a(href='#/view1') View 1
+      li
+        a(href='#/view2') View 2
+    div(ng-view='ng-view')
+    script(data-main='app/js/main', src='/bower_components/requirejs/require.js')
