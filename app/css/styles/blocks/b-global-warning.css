@@ -1,0 +1,19 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-global-warning\.css\.scss}line{font-family:\000035}}
+.b-global-warning {
+  -webkit-border-radius: 8px 8px 0 0;
+  -moz-border-radius: 8px 8px 0 0;
+  -ms-border-radius: 8px 8px 0 0;
+  -o-border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
+  background: #ffae00 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAA7CAYAAAD1qeOSAAAABmJLR0QA%2FwD%2FAP%2BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QQNAjYRhba%2BpQAAAtJJREFUWMPtmV9klWEcx7%2B%2FNsuIiBgxxohYDmNXMaJ0NUZXMcYyRkSMrsYYJepm7CKjmK4aGSWWpYuI3ZSlRLMsm8PYnGkOy5lPN085HTtn7%2FPb8zLpe%2Fm%2Bz5%2Fv%2B%2Fy%2Bz%2B%2FfKx0BWB6LAqckDUu6Iqld0o6kz5IWJT00s51cvwq4BpSoj1WgK08CI2TDJ6AlDwIFoEJ2TORB4jlxWEkqTOCEpJKkpohpP83suCQdS3QQ7ZEE%2FkIqEq2OOcupSSxL2ouc8ywPYS5EiHIzOLTkJC5kvKIVoC9PZzUAlBsQeA905x47gA5JI5IKkrokrUv6IOmtpBkz29N%2FHGXYIe3fG3KGgqTTkrolbQe%2F8U7SXTNbzyVhAcaBYobruAsMp9y8KeQLpchoWQEKKQh0h0TEi%2BnDEhg8wAFlwdJhjv9%2BzWIlYMNBYs1L4lHN5gPheQuwFkniq4fAdNUCReBszftYfczFEpg6gEBHZEILcDuGwK2qiRu1BMKYCYcmujJ7v6ovLAM9dcRazE0PwNJBSQfQ7ziFsRgSxUBgoMGYeYe37IiNCZ2NkhWHIBey7N38J5yabUnaajB22FFbzKQOXrGC%2FBEqs2TFT7%2Bktkjus0n7EA5BAlxMSaDTIcgVILN%2BsphjyCPIZKl9iJhFhyk6U5riqoPAm9StAU%2BSOpNakLEoAydTnoTnFGbNbDulh%2FTkkpdSmqLPk8zW8w3hlo1H1R%2FAUweJiTprtVZ53JcxIb2cwjcEs85VjbkT05uOxXyGrH01880BnjhIDO2zzmRNhtUbcys2HSTONCgbiKrMgR4HgcrvWxFEOO2uOSJ%2FFdRiCrgBfKl5PurxD5OkQQUY9LrttgS%2B7puky2b22Eui6RCb70l6IOm8mb2Omdhcr%2FMeiY%2BSrpvZYoqYUYi0%2FS4wlvx%2FFjCaYfMicG%2B%2Fqj1ZHxM4J%2Blm6Eu2S%2FoeBLcu6ZWZvfjnOrq%2FAE7ui4ezwN%2FYAAAAAElFTkSuQmCC) 20px center no-repeat;
+  float: right;
+  min-height: 74px;
+  right: 0;
+  width: 608px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-global-warning\.css\.scss}line{font-family:\0000313}}
+.b-global-warning .text {
+  color: white;
+  padding: 12px 25px 12px 74px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+}

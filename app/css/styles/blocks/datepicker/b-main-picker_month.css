@@ -1,0 +1,304 @@
+@charset "US-ASCII";
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/*
+
+  project specific SASS mixins
+
+*/
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/* центрирование элемента */
+/* кнопка навигации слайдера */
+/* круглая кнопка, используется в оформлении заказа */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\000035}}
+.b-main-picker .month {
+  width: 304px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\000038}}
+.b-main-picker .month .caption {
+  text-shadow: #232323 0 -1px;
+  background: #333333;
+  font-size: 18px;
+  line-height: 54px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000315}}
+.b-main-picker .month .table-wrapper {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAC5CAYAAADpjFWRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHFJREFUeNrskUsOwCAIRKF6%2FxOjtOliyBBok67r4mVw%2BBnF3fWQ6wDaqYSD1Y0BKNQEUkrcRcooUgbPSF2SIaxmsXh6kXeuFGiNH5%2FhnbH5exx3UVYhygxqwQgYjEg2NtZjaDzDuP3ihTYvKe%2BhngIMABkqNG%2BtGIZkAAAAAElFTkSuQmCC) right top no-repeat;
+  padding: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000320}}
+.b-main-picker .month table {
+  table-layout: fixed;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000323}}
+.b-main-picker .month thead {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000325}}
+.b-main-picker .month thead th {
+  padding-left: 12px;
+  padding-bottom: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000330}}
+.b-main-picker .month td {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  cursor: default;
+  padding-bottom: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000336}}
+.b-main-picker .month td .wrapper {
+  behavior: url(/assets/polyfills/PIE.htc);
+  -pie-watch-ancestors: 1;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color,text-shadow;
+  -moz-transition-property: color,text-shadow;
+  -o-transition-property: color,text-shadow;
+  transition-property: color,text-shadow;
+  color: #B3DB79;
+  cursor: default;
+  display: block;
+  padding-left: 12px;
+  position: relative;
+  text-decoration: none !important;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000348}}
+.b-main-picker .month td .wrapper.glow {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: text-shadow;
+  -moz-transition-property: text-shadow;
+  -o-transition-property: text-shadow;
+  transition-property: text-shadow;
+  text-shadow: 0px 0px 5px white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000354}}
+.b-main-picker .month td.valid {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000357}}
+.b-main-picker .month td.valid .wrapper {
+  color: white;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000362}}
+.b-main-picker .month td.left {
+  display: table-cell;
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000366}}
+.b-main-picker .month td.left .wrapper {
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-top-left-radius: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000370}}
+.b-main-picker .month td.right {
+  display: table-cell;
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000374}}
+.b-main-picker .month td.right .wrapper {
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-top-right-radius: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000379}}
+.b-main-picker .month td.highlighted .wrapper {
+  background-color: #67a015;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\0000383}}
+.b-main-picker .month td .point-wrapper .point {
+  /*@include transition-duration(0.5s);*/
+  /*@include transition-property('border,background');*/
+  /*@include border-radius(22px);*/
+  display: none;
+  bottom: -4px;
+  height: 25px;
+  /*height: 22px;*/
+  left: 6px;
+  line-height: 25px;
+  /*line-height: 22px;*/
+  padding-right: 1px;
+  position: absolute;
+  text-align: center;
+  width: 25px;
+  /*width: 22px;*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003102}}
+.b-main-picker .month td.selected .point-wrapper {
+  display: block;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003106}}
+.b-main-picker .month td.selected .point-wrapper .point {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5Rjg2REE3REE3MjExMUUxQjJCNkEzRjU5NDA3NTFEMCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5Rjg2REE3RUE3MjExMUUxQjJCNkEzRjU5NDA3NTFEMCI%2BIDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjlGODZEQTdCQTcyMTExRTFCMkI2QTNGNTk0MDc1MUQwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjlGODZEQTdDQTcyMTExRTFCMkI2QTNGNTk0MDc1MUQwIi8%2BIDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY%2BIDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8%2BelSHOgAAAktJREFUeNq0lj9oU0Ecx1%2FenwSLUpfSDtEmBKGDIOhQcGih6iIuCraTi%2BCgSyelU4sgLSJSsFDo1qFLcRDcO3UWSv5IcAwuLTQFu1iTvOfn93r3vB6p%2Ffdy8M1dfve73%2Bd%2Bx%2BV3yeTzecduGRrdJdd1BxlOoCcoj65jv4p%2BRFH0C22EYfiVfgsdNBqNjtOlZWwIgbIEL6KXnue9oO9DjshsBHUAaH3rdDpz9JvY94FFXSGyeXSFwA%2FRku%2F7A%2FRxcDXnHCb4D6JBAGK12%2B11%2BjfYfgIKta9vAPoIPI1mUYCOALSfCdG9bEYg%2BE8BGkHPmKpoX1ct9gj6PAiC2Ww2Sxc4OgsbZBxrLJkXX9mUrEO3GK8Wi8XhBKKcRplYkOjibB7TaZqGGaDbjBcLhUJOQ3JiYOKyeURnbXZW6BHj%2BxoiWdw56%2B7%2FB1MgOZW3MQTDK%2B%2BwXRhgZ4RulkqlQYGMpZHBMZciJzdOjmsgTYCdERp35fp2u6IpZjMkv5P00zgKigtS6PS27Qnkd6%2Biq%2Fq26fLxvYcA0YpA5rWhB6Dder3edKmeXyjN%2B2lCjLfmQ%2FyLV2%2FBjBjTAinIXq1We59AqP%2FL9FtpQBQgIt7TpNQbL9soasr3ix4Tm35NFhsJRCYwOq1W6w%2B6AahxnqPTGRBrulqtfjTnXIMuoCYaZvxZFpwGZLzzu6x9UKlUPtk%2BvnaUIzPu9yQLr1Gh16g9dykNvl3b9Abw20FL5XL53bHlxfxLZL0FibDfw%2F4Yl34kT%2BqB%2Bq%2B1xs63T8r2rwADAPEycattF%2BosAAAAAElFTkSuQmCC) center center no-repeat;
+  /*background: #333;*/
+  /*border: 1px solid #2b2b2b;*/
+  cursor: pointer;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003114}}
+.b-main-picker .month td.selected.from:not(.directed) .wrapper {
+  padding-left: 0;
+  margin-left: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003118}}
+.b-main-picker .month td.selected.to:not(.directed) .wrapper {
+  padding-right: 0;
+  margin-right: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003125}}
+.b-main-picker .month td.hovered .point-wrapper {
+  display: block;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003129}}
+.b-main-picker .month td.hovered .point-wrapper .point {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEMjgzMEU5NkE3MjUxMUUxQjJCNkEzRjU5NDA3NTFEMCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEMjgzMEU5N0E3MjUxMUUxQjJCNkEzRjU5NDA3NTFEMCI%2BIDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjlGODZEQTdGQTcyMTExRTFCMkI2QTNGNTk0MDc1MUQwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjlGODZEQTgwQTcyMTExRTFCMkI2QTNGNTk0MDc1MUQwIi8%2BIDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY%2BIDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8%2Bd94kzwAAA0BJREFUeNq0lj1oVEEQx2dm38fd5e6UGFAxxC9QUCSEGBAbo6YQJJVcZRFEIQGNFmKRQgtBgmBAREQQrGwi2NqIH4VYpLOyUcSAQhQhaj7u7r2ddXb3LtEz8SM5F5bjvds3v5nZ2fkvFgoFaBw9pYiK67EIgFt1FY6lFejXDG0mwVZjIKMC8wkI51RoJsIYxlHB4zQxs7sOBwksMbAR0jsY51SAnUkZRtIyHQkiDFWIIO8ACf0iIbEGEMOQVlmsmMkoZ0YpgAdfp%2Fjz3lLIS0IQEXqHojYweCKZo0tBRPkoSyAQsBBSAllkgOEaSCBJ2UBlngEVvxDYoIrg1fZ9StchQR1w6Ey8VlfwKic0kC2Skng8wEXg1yxAHMgICCDMoEwDoThUmdX7ZT6MjRmQJU%2FrEBXHsU1RCEyXTUpDuaJS2XwAUUaiCMlHQDVAbSJ6KMl7pbwj9WiBcU1Sgd7p9%2Fxk3RaashCyi1VI%2FVyl09mCUpm8ct7VIwCE3w%2F53xq3Dtnos0X5PlKbdZXuvH6uWxyk72zcImm6FudVJm7xKbIe%2FtF4I0scstHYDGTykgGibmY87iAS3lEK1OY4RxDGKwMsgOQ7mwFbMDKVOD%2FiIGmCw1GMZCPAVQB%2BiiiwxUASmWp%2F84K3iVnaE8Tk92CVgEWQ3SM3A07xNEl1FDygSYRa2mwx2D2Sc7ef0NZXrSybOVza3AHGVoHI79%2BU6j9TPAiVN2%2Fgfw1XR%2BaLhST%2FBeP6m%2BxNABOyI2aS2Te9pjLEJmsjEHOFKDJj9sF21WZGwa5Lm5mObvhAz27ybXmYt227WWljqzepLWO%2B6098mlodGNOpcX82ZS%2BszqQ829FjzjmI1hqe3NAX00S%2FtfRVcWppSipspHOdrL8mKz4uGuTdSZlnWCJaEWgBIN%2BDHmvvMuO%2FQB5dT%2BYpSnckVf1RJ171VgAQa3q0vYsv%2FKLxXuWk1YchRFEEB4fxqTwfkN6DC6q4nHErw17rvxnUpzZ18v1lbyt1UBAEDtZ3HneKHN9Hot2iMcrrfMM5YAeYlp29t3GPHl724P94JfKXBavbyk0Ls9ADw7ok4laSHiF3MYhkVuUa9BLJ3Nqwi9%2F9KZvfBRgA18pRDB1oyo0AAAAASUVORK5CYII%3D) center center no-repeat;
+  /*background: #639220;*/
+  /*border: 1px solid #496b17;*/
+  cursor: pointer;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003137}}
+.b-main-picker .month td.hovered.from:not(.directed) .wrapper {
+  padding-left: 0;
+  margin-left: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003141}}
+.b-main-picker .month td.hovered.to:not(.directed) .wrapper {
+  padding-right: 0;
+  margin-right: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003148}}
+.b-main-picker .month td.directed .direct-left:before, .b-main-picker .month td.directed .direct-right:before {
+  position: absolute;
+  font-size: 12px;
+  text-shadow: none;
+  font-family: 'FontAwesome';
+  margin-top: -16px;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003156}}
+.b-main-picker .month td.directed .direct-left:before {
+  margin-left: -4px;
+  content: '\f060';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003160}}
+.b-main-picker .month td.directed .direct-right:before {
+  margin-left: 34px;
+  content: '\f061';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/datepicker\/b-main-picker_month\.css\.scss}line{font-family:\00003164}}
+.b-main-picker .month td.directed .point {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABmJLR0QA%2FwD%2FAP%2BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QIUDB8vqF78WgAAAttJREFUSMe1ljFonVUUx3%2F%2Fc%2B%2F38mL7Yg0VHJSigyJBrNYpYF2tmiwSdCui4FAKLg4d6ibBoWsRBCcHGxvtok7SQaxpUFGXgou0goIifSGpIXnfPcfhe0mamiaxeT3Tx%2BV%2B53fPPf%2F7v1dsEY8%2Fu9%2BG79UI8LDXvOw1E%2B4cjKJRoC2Lv5D%2BsRTzqeKcjK%2B8cOPHLxd7W%2BXTrQOHj3XuMePJ0uNU6en5lFVZEmaA9adHEA5eoNQO4lpuxbQSs8sL8feVr5f8tpCnXugcJHitrOody7Y%2FV8KysARm2pgdEH1QqYPSC%2BpegOJSHoo3LXPluwuLZS1vXvt4%2BqXOAa%2F1XhQdr4aVqpY1AANZsx5pndEHQapEqYJUQ73i4%2FWKf5EjjgMXN1Vy%2BFinEpqOoreqtqVqyLAEso3E20VE4AXq1aC34pTar6YqJn%2F4fPFnAAOwpImodaJqW6raRqrA0u4AAJKwJPKQaA0bKdshr%2FXBkYnOPoB0ZLKzz1d1IQ%2Bl%2B1t9gHabfRNoo3IhvPAA4rc%2Ffln53nC9qGSHckt3DLh5781EbolcKXmPUwDmhZM5y1IW7AFwc0WWGkFYsgefmRx5xMCeaAa2ODR7IKUkUlYO54SZ0TETA0QgGtkrCULjJkkMZqc2g4zGJaRRk%2B2p17tQXHOWg7sVjRMtGNC7W5hwkDFvENciBl9OeB%2BS4l1T5ox73%2B0GCWmceuny7MLvNv9p9%2F1wlt0HCWiuASk%2BBEgAD40NtYUdlTEQqYVDXceNy59dP7ruwnOz3dOl%2BK%2Fue%2B9NRFDqCJm%2FvjZmG5qOsdKLpShxx6CIoPQg8DNz57vn%2FgOZm%2B0uW%2FJHS4k%2FvcT%2F1kEfEIFPz53vvr3tQwJgfGr0oqTnLDd3rnbRZC%2BxGPgb337SndnxtbIOevXAYxSbQRqTkXSLv4X3Zep0kX90aeb6ye0Mc8cYf%2BW%2BKUJTwAjQAlZR%2FCTF2W8%2B7l7d6f9%2FAW93MfrR1PwZAAAAAElFTkSuQmCC) center center no-repeat !important;
+  /*background: #555!important;*/
+  /*border: 1px solid #3f3f3f!important;*/
+  cursor: pointer;
+  display: block;
+}

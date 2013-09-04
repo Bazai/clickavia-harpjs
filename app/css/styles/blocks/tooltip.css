@@ -1,0 +1,81 @@
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/tooltip\.css\.scss}line{font-family:\000034}}
+.tooltip.red .tooltip-inner {
+  background: #cc0033;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/tooltip\.css\.scss}line{font-family:\000037}}
+.tooltip.red.top .tooltip-arrow {
+  border-top-color: #cc0033;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/tooltip\.css\.scss}line{font-family:\0000310}}
+.tooltip.red.left .tooltip-arrow {
+  border-left-color: #cc0033;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/tooltip\.css\.scss}line{font-family:\0000313}}
+.tooltip.red.bottom .tooltip-arrow {
+  border-bottom-color: #cc0033;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/tooltip\.css\.scss}line{font-family:\0000316}}
+.tooltip.red.right .tooltip-arrow {
+  border-right-color: #cc0033;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/tooltip\.css\.scss}line{font-family:\0000319}}
+.tooltip.red .left-aligned {
+  text-align: left;
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/tooltip\.css\.scss}line{font-family:\0000322}}
+.tooltip.red .left-aligned:last-child {
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/tooltip\.css\.scss}line{font-family:\0000326}}
+.tooltip.red.moved-down {
+  margin-top: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/tooltip\.css\.scss}line{font-family:\0000328}}
+.tooltip.red.moved-down .tooltip-arrow {
+  margin-top: -35px;
+}

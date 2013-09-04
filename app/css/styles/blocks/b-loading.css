@@ -1,0 +1,10 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-loading\.css\.scss}line{font-family:\000034}}
+.b-loading p {
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-loading\.css\.scss}line{font-family:\000037}}
+.b-loading .spinner {
+  background: url(data:image/gif;base64,R0lGODlhIAAIAKEDAI6OjrS0tNnZ2f%2F%2F%2FyH%2FC05FVFNDQVBFMi4wAwEAAAAh%2BQQFCgADACwAAAAAIAAIAAACFZyPqcvtD6KMr445LcRUN9554kiSBQAh%2BQQFCgADACwCAAIAEgAEAAACD4xvM8DNiJRz8Mj5ari4AAAh%2BQQFCgADACwCAAIAHAAEAAACGJRvM8HNCqKMCCnn4JT1XPwMG9cJH6iNBQAh%2BQQFCgADACwMAAIAEgAEAAACD5RvM8HNiJRz8Mj5qri4AAAh%2BQQFCgADACwWAAIACAAEAAACBZSPqYsFACH5BAEUAAMALAAAAAAgAAgAAAIOnI%2Bpy%2B0Po5y02ouzPgUAOw%3D%3D) no-repeat;
+  width: 32px;
+  height: 8px;
+}

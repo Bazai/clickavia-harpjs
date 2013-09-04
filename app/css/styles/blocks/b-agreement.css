@@ -1,0 +1,415 @@
+@charset "US-ASCII";
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/*
+
+  project specific SASS mixins
+
+*/
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/* центрирование элемента */
+/* кнопка навигации слайдера */
+/* круглая кнопка, используется в оформлении заказа */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000313}}
+.b-agreement-title {
+  font-size: 14px;
+  margin-top: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000317}}
+.b-agreement-title .logo {
+  width: 135px;
+  height: 120px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000323}}
+.b-agreement-title h2 {
+  font-size: 1em;
+  font-weight: normal;
+  text-align: left;
+  margin: 0 64px 0 64px;
+  text-indent: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000331}}
+.b-agreement-title h2 span {
+  font-size: 1.1667em;
+  display: block;
+  text-align: right;
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000342}}
+.b-agreement-title h1 {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.1667em;
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+  margin-left: 64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000352}}
+.b-agreement-nav-container {
+  margin-bottom: 188px;
+  margin-left: -32px;
+  margin-top: 53px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000357}}
+.b-agreement-nav-container #scrollcontainer0 .agreement-navigation, .b-agreement-nav-container #scrollcontainer1 .agreement-navigation, .b-agreement-nav-container #scrollcontainer2 .agreement-navigation {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000360}}
+.b-agreement-nav-container .agreement-navigation {
+  background-color: #F8F7F3;
+  border: 1px solid white;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  left: 0!important;
+  padding: 9px 0;
+  width: 992px;
+  z-index: 1011;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000369}}
+.b-agreement-nav-container .agreement-navigation ul {
+  width: 896px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\0000372}}
+.b-agreement-nav-container .agreement-navigation ul:before, .b-agreement-nav-container .agreement-navigation ul:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\0000377}}
+.b-agreement-nav-container .agreement-navigation ul:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000375}}
+.b-agreement-nav-container .agreement-navigation ul li {
+  cursor: pointer;
+  float: left;
+  max-width: 80px;
+  margin: 0 4px;
+  display: block;
+  text-align: center;
+  font-size: 0.85em;
+  line-height: 1.25em;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000389}}
+.b-agreement-nav-container .agreement-navigation ul li a {
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  color: #bfbfbf;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\0000396}}
+.b-agreement-nav-container .agreement-navigation ul li span.number {
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  color: #bfbfbf;
+  cursor: pointer;
+  font-size: 2em;
+  line-height: 1.25em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003104}}
+.b-agreement-nav-container .agreement-navigation ul li span.title {
+  color: #bfbfbf;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003110}}
+.b-agreement-nav-container .agreement-navigation ul li:hover a {
+  color: #4a4a4a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003114}}
+.b-agreement-nav-container .agreement-navigation ul li:hover span.number {
+  color: #67a015;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003117}}
+.b-agreement-nav-container .agreement-navigation ul li:hover span.title {
+  color: #4a4a4a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003123}}
+.b-agreement-nav-container .agreement-navigation ul li.active a {
+  color: #4a4a4a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003126}}
+.b-agreement-nav-container .agreement-navigation ul li.active span.number {
+  color: #67a015;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003129}}
+.b-agreement-nav-container .agreement-navigation ul li.active span.title {
+  color: #6d6d6d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003135}}
+.b-agreement-nav-container .agreement-navigation ul li.active {
+  float: left;
+  max-width: 80px;
+  margin: 0 4px;
+  display: block;
+  text-align: center;
+  font-size: 0.85em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003144}}
+.b-agreement-nav-container .agreement-navigation ul li.active span.number {
+  font-size: 2em;
+  color: #67a015;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003158}}
+.b-agreement {
+  box-sizing: border-box;
+  padding-bottom: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\0000372}}
+.b-agreement .section:before, .b-agreement .section:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\0000377}}
+.b-agreement .section:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003165}}
+.b-agreement .section .legal, .b-agreement .section .human {
+  box-sizing: border-box;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003170}}
+.b-agreement .section .legal {
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  padding-right: 16px;
+  width: 512px;
+  color: #363636;
+  /*color: $agreement-gray-color;*/
+  /*&:hover {*/
+  /*color: $c-black;*/
+  /*}*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003183}}
+.b-agreement .section .human {
+  width: 384px;
+  padding-left: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003187}}
+.b-agreement .section .human p {
+  text-indent: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003191}}
+.b-agreement .section .human p .intro {
+  color: #67a015;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003198}}
+.b-agreement p, .b-agreement h1, .b-agreement h2, .b-agreement ul, .b-agreement ol {
+  font-family: "Myriad Pro", Helvetica, Arial, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003204}}
+.b-agreement .chapter {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA8EAAAA5CAYAAAAWYSnpAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89%2BbN%2FrXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz%2FSMBAPh%2BPDwrIsAHvgABeNMLCADATZvAMByH%2Fw%2FqQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf%2BbTAICd%2BJl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA%2Fg88wAAKCRFRHgg%2FP9eM4Ors7ONo62Dl8t6r8G%2FyJiYuP%2B5c%2BrcEAAAOF0ftH%2BLC%2BzGoA7BoBt%2FqIl7gRoXgugdfeLZrIPQLUAoOnaV%2FNw%2BH48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl%2FAV%2F1s%2BX48%2FPf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H%2FLcL%2F%2Fwd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s%2BwM%2B3zUAsGo%2BAXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93%2F%2B8%2F%2FUegJQCAZkmScQAAXkQkLlTKsz%2FHCAAARKCBKrBBG%2FTBGCzABhzBBdzBC%2FxgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD%2FphCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8%2BQ8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8%2BxdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR%2BcQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI%2BksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG%2BQh8lsKnWJAcaT4U%2BIoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr%2Bh0uhHdlR5Ol9BX0svpR%2BiX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK%2BYTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI%2BpXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q%2FpH5Z%2FYkGWcNMw09DpFGgsV%2FjvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY%2FR27iz2qqaE5QzNKM1ezUvOUZj8H45hx%2BJx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4%2FOBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up%2B6Ynr5egJ5Mb6feeb3n%2Bhx9L%2F1U%2FW36p%2FVHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm%2Beb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw%2B6TvZN9un2N%2FT0HDYfZDqsdWh1%2Bc7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc%2BLpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26%2FuNu5p7ofcn8w0nymeWTNz0MPIQ%2BBR5dE%2FC5%2BVMGvfrH5PQ0%2BBZ7XnIy9jL5FXrdewt6V3qvdh7xc%2B9j5yn%2BM%2B4zw33jLeWV%2FMN8C3yLfLT8Nvnl%2BF30N%2FI%2F9k%2F3r%2F0QCngCUBZwOJgUGBWwL7%2BHp8Ib%2BOPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo%2Bqi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt%2F87fOH4p3iC%2BN7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi%2FRNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z%2Bpn5mZ2y6xlhbL%2BxW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a%2FzYnKOZarnivN7cyzytuQN5zvn%2F%2FtEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1%2B1dT1gvWd%2B1YfqGnRs%2BFYmKrhTbF5cVf9go3HjlG4dvyr%2BZ3JS0qavEuWTPZtJm6ebeLZ5bDpaql%2BaXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO%2FPLi8ZafJzs07P1SkVPRU%2BlQ27tLdtWHX%2BG7R7ht7vPY07NXbW7z3%2FT7JvttVAVVN1WbVZftJ%2B7P3P66Jqun4lvttXa1ObXHtxwPSA%2F0HIw6217nU1R3SPVRSj9Yr60cOxx%2B%2B%2Fp3vdy0NNg1VjZzG4iNwRHnk6fcJ3%2FceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w%2B0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb%2B%2B6EHTh0kX%2Fi%2Bc7vDvOXPK4dPKy2%2BUTV7hXmq86X23qdOo8%2FpPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb%2F1tWeOT3dvfN6b%2FfF9%2FXfFt1%2Bcif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v%2B3Njv3H9qwHeg89HcR%2FcGhYPP%2FpH1jw9DBY%2BZj8uGDYbrnjg%2BOTniP3L96fynQ89kzyaeF%2F6i%2FsuuFxYvfvjV69fO0ZjRoZfyl5O%2FbXyl%2FerA6xmv28bCxh6%2ByXgzMV70VvvtwXfcdx3vo98PT%2BR8IH8o%2F2j5sfVT0Kf7kxmTk%2F8EA5jz%2FGMzLdsAAAAGYktHRAD%2FAP8A%2F6C9p5MAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfcCgkNCxxhvTcIAAASpUlEQVR42u3deXBUx50H8G%2FPPW8uaSTNoJE0YwlJgBBGMkKYy4hTKBw26%2BWywXgD67iSlE12y3GtsUm2EmyTsl2Oly2DKSoVxxAWBbKxsZwy8YUQmARW4SiOcOkcAQIJ8XSNZka9f2hki%2FEoPsBYsb6fqimJ163Rb17%2F0Xz1ut8TUkoQERENdkKIW%2FZWka8aAAYAegA6ANrIq%2B8v6gYgAYQBhAAEAXRF%2Fo1I2y3B%2BZ6IiKiHjqeAiIjoloVf7YwZMyx2uz1u%2BPDh8ffff%2F%2Bw1NTUu6xWa4bBYEjXarUeIYQDgBFAl5RSDYfDF4PB4IW2trbzfr%2F%2FyJ49e47v37%2B%2FORAINL%2F99ttqJBAzwRIREd2qCZt%2FGSYiIrqpK8EiMzPTkJ6enjB27FjXihUrCn0%2B30Kj0ZgL4ASA9wEcB%2FA3ANVCiPbeH5RSmgCkAMgGkAtgMoD8UChU7ff7d2zbtq3inXfeuRwMBq8cOHCg82bCMOd7IiIihmAiIqKbCcEiMzPT4Ha7E1atWjV0wYIFDzocjqmRwPuKEOKjmwisowGsAnB3a2vr4ffee%2B93zz333KlQKNR0%2BPDhjq8ShjnfExERMQQTERF91RCsu%2FPOO52PPfbY8IULF%2F6L3W6%2FC8AuAC8KIVpvVU1SSj2ARQCWtLe315aVle18%2BumnT54%2BfboRPfuHGYKJiIgYgomIiG5NCI41R2ZlZRkXLlzoW7FixfTs7OzFQoijAJ7IysoKfF21nTlzRgB4CMDMqqqqP23YsOHjPXv21B49erRdRhXZX5jnfE9ERMQQTERE9IVDsBBCk5OTozz33HOjp06dus5msyUAWJqVlXX8dtV45syZBABPtrW1pbz77ruv%2FvjHPz569uzZVillN0MwERERQzAREdEtCcFCCE1KSkr8pk2bJs6aNes%2F9Hp9JYDvZ2Zmft7bGgEkA0gCoKDnkUlKn%2FYAgI7I16sA6gG0f96bnj179r5gMDizvLx898qVKyurqqoapZRhhmAiIiKGYCIiopsKwUIITXZ2tvPVV1%2BdPGXKlB9ptdoyAM8DQD8hWAfAB8Cj0%2BmsTqezKS0t7ZrL5Qq4XK5gQUHBJ8umjx07ZqitrTVcuXLF4Pf7bZcvX04KBoNBAH4A5yPhuL8gXBgKheYfOHCg%2FKGHHjrSG4QZgomIiBiCiYiIvnII9vl88Vu2bJlaVFT0A51O9zsAr%2Fa2Dx069Ia3AHCHXq%2FPSkxMbMrNzb06d%2B5c9cvWsW%2FfPvPBgwcTL1265AoEAtUAzgIIxep77ty5Ed3d3XP27t371yVLlhy9ePHiZYZgIiIihmAiIqKvFIJTU1PNO3bsuCc%2FP%2F8pk8lUBmB93%2FY%2BITgRwJ1JSUlt8%2BbNq83Nze262XoaGhq027dv9zQ0NLhDodBxAHUxQjAAjAwEAjMqKir%2BsmTJkqONjY2tDMFEREQMwURERF82BBtLS0vHzJo166d2u%2F0IgCeiO2RkZADAHXa73Td9%2BvTzEyZM6LjVdZ05c0ZfWlqa3tzcrKLnGcSfTNznz5%2Fv%2FXZ0S0vL3Tt27Dj4yCOPnEbPPmOGYCIiIoZgIiKiLxSCtUVFRUnbt2%2F%2Fudvt9gKYFd0%2FPT1dABiVlJRkXrVq1YW4uLjur7O%2BjRs3empqaizhcPgQIs8IvnDhQt8uk%2Bvq6nzFxcV%2FOnHixFVEPUeY8z0RERFDMBERUcwQ7HQ67X%2F4wx%2FmTpgwYZpGo9kA4K%2FRAVin093l9Xq7Vq5c2XC7aty1a1f8iRMnkjs6Og4ACEaFYCuAke%2B8845YvHjxGVVVrzIEExERfZaGp4CIiOgGhtdeey179OjRizQaTU10AAYAnU6XO3To0PYVK1Y0hEIh3K7X%2FPnzmwsLC2usVmuhlDJ6%2FXYrAH9BQUHcM8884wRg5lASERF9lo6ngIiI6FNOp9OUl5e3wGazeQDcH93u8%2FlSfD6fWLRoUWMoFLrt9d1zzz2tqqpeOnLkyHAAJ6Oaa5OSkpwzZszw2my2JlVVOziiREREDMFERET90W%2FZsiXL5XINAfArAOG%2BjV6v1%2BDz%2BdIfeOCBU11dXd9YkTNnzrxWV1eX5vV642pqaq5FNde53W7tY489Zl23bl0bgE4OKxEREUMwERFRLMb09PTxNptNAfDr6Eav15szbty4c9%2FEFeBoy5cvr33zzTdHAqiIamryeDyWu%2B%2B%2BOx6AyhBMRETEEExERBSLZvXq1bbk5OR0ANVCiPa%2BN5NKTU21jBgxAikpKcFgMDgwErvReDE1NdVdV1d3qfeYEEJKKVs9Ho8lPz9fW1lZqUXUFW0iIiKGYCIiIjIsXry4IC4uzglgY3Rjbm5ubkFBwYVvchl0tEmTJrWEw%2BHhAC5FNbW63W7lwQcfVCorKzvQc9MsIiIiYggmIiL6dE50OBw5BoPBIYQ42LfB4%2FEYs7OzVZPJ1D1QrgL3UhSlxuPxJPr9%2Fiu9x4QQXVLK9tTU1ESbzWZSVbUNAJ%2BRRERExBBMRET0CeFwOBIAnItuGDdu3B0jRoxoHAh7gaPl5ua2u93uLABXopoCNpstMHnyZF1ZWZkeQBeHmIiIiCGYiIiol8ZisdgA7I1uGDZsmBvA1YG0FLqvfjYpdxmNxs78%2FHxDWVmZgSGYiIjoxhBsQ88dJImIiAYrYTQaLQBORTfU19c3DRkyZMAW3tTU1OB2u5VLly619zkcdrlcXYmJiWYAeg4vERFRT%2B7VCSG0UsoCAB%2FwnBAR0WAOwXq93gSgpu9Bl8tlmjlz5pWBehUYAFJSUgLf%2B9730gCc7nNYJicnhxRF0QLQcniJiIhQIITYqwOgAHiCIZiIiAYhLYB7AUwDsFar1RqEEFf7dnj00Uc9V65cuT7QbogVzePxJPYNwZFHJXVbrVZN5HP%2BCMAr6LlBVjeHnoiIBqEnABzSAXADKAGwBsA6nhciIhoENACSADwspXy%2BpaUFAF4DYIjuOGzYsAS%2F3399oH8gm81mjnFYGo1GLQCXlPIlIYQPwAsA%2FJF2hmEiIhos1kRyr1sHwNHQ0IDk5OSfAygE8DKAPwsh2nieiIjo20hK6Q6Hw%2FeGw%2BFlTU1Nsr6%2BXgBIBCCi%2B5pMJmWgXwUGAJ1OF2vJs8ZkMukApNTV1UmXy3Wv0Wi8DGAbgEbO9URE9C2f7y2RjLsawPyGhgYAcOgAwO%2F3o6Wl5dwf%2F%2FjHzevXrz%2Ff0tISB8DB00ZERN9GKSkp2qVLlx5atGjRx1arNTdy2CGEKInua7FYdAN5P3CvyLLnGwghWgE0AbizpaVFBAKBw9u2bfvw5Zdf7hZCxHOuJyKibzNFUYTD4Tj%2F5JNPbp49e%2FbItra2oUDk7tAOhwMpKSlDH3%2F88bdWr17Ns0VERINGMBhEU1MTADTHajebzfhHCMH9XAkGgNby8vL7c3NzASB%2F7dq1FWvXruXAExHRoCGlRGdnJ%2Brr69Ebgv2ZmZkA8BZ61kmfQM8eIcnTRURE31ZCCEgpk%2FV6%2FVa73T7Z6XSqTU1NGkTtkzWbzV3%2FCMuhbTZbrBAsxo8frzOZTNcAhADMFUKc7P0PARER0bd9ugegEULkmM3mdZmZmfMA%2BHVSygYAT4M3xSIiosEXhBuklC%2Fq9XpTSUlJ%2B9atWz8TglNTU6%2F9gyyH7oxxWLNw4cI4h8MRAlDbG4CJiIgGCQkgDOAYgPkA1kgpG3r3DzEAExHRYPUXjUZTNn36dAtiPE%2FX4%2FFUrVy5MjEYDGKgvqxWq8blcl2OFYJzcnISzWazBkAlh5qIiAa5dUBkTzAREdFg02c58DWNRlM%2FcuTIhMi8GIjqqubk5IwMBoMfDdTP8vjjj6cPGTLkRIwmbVJSUoqiKHoAH3MJNBEREUMwERFRF4AWl8uVAeBgrA5ms9kykPcFu93u7H5q11mt1gyr1aoAeI9DTURExBBMREQEAEGLxZJms9l0qqoKRN0c0uv1Xpg%2Ff751586drQOxeJfLFSuhi%2Fj4eK3FYskyGAwGAEc5zERERICGp4CIiAj1JpOp5fXXX%2FcBMEQ36nS6A8uWLZs6EPcDv%2F7663fFxcXFWqqt%2B81vfpMZeX7wB%2Bi5OzQREdGgxyvBREREwBlFUUbl5eUVADiLz%2B4LDiUkJGDKlCmmPXv2dA6kwpOTk3MBvBujyZCRkTHOZrMZAezkEBMREfXglWAiIiJA1Wq1bfHx8XlFRUVmxLhLtKIov1%2BzZs29oVAIA%2BW1e%2FfuSfHx8WWx5veioiJzQkLCWI1GYxFC1HGIiYiIGIKJiIj6Om00Gq%2B8%2BOKLYwGYY7RfS0xMbHrhhRdSB8Iy6Hnz5ikej2cogFMxajWuW7dunM1mMwHYxaElIiJiCCYiIrqBEOKYyWQ66fV6vzN%2B%2FHgHYlwN1mq1pcXFxQ%2BOHz%2Fe8E2H4J%2F85Cf%2Fajabfx1rbp8wYYItLS1tjtlsDgshtnF0iYiI%2Bsz5fGYgERERIISAlLKgo6Pju8ePH%2F%2BosLCwTEqpxujqa2lpeXjixImvNjY2dn8TtVZWVi7weDynAJTH%2BBzK3r17Z40ZM2aloij%2FK4TYAtzwXGQiIqJBjTfGIiIi%2BjRAHpJSjh4xYsSiTZs2nRBC%2FE1KGX2TrGqHw7Fv3759KzMzMzff7hoPHz5c7PF4oNfry6OfXSyE0G%2FYsCF11KhRyxRFUXsDMBEREX2Ky6GJiIhudFBRlOtz5879p%2BLiYqcQItYfjN%2BLi4s7VlNT82RJSYnpdtwEy%2Bl0ak6dOvWAz%2BdL0ul0m6Ov7AohNIWFhfbZs2ff63A4kgH8lkNJRET0WVwOTURE1BMiP%2FleSlnU0dHx%2FZMnT5aNGTNmFwBVxp4wJwQCgYc3bdr00lNPPXXl66pt%2Fvz5ps2bN%2F%2BbxWI5pNVqP9njGw6He2sXAJS9e%2FeW5Ofnr7JarbuFEBv6vgfneyIiIoZgIiKi%2FkKwDsA%2Ft7a2Ttu%2Ff%2F%2Fvi4uLywG0RQdhrVaLcDicEQ6Hnzl79uzuvLy8j251XXv27MkpLCx82GAwbNRqtX%2Fu2xYOh3sDsLm0tHTMtGnTljudzjoAzwshuhiCiYiIGIKJiIg%2BNwRHQqMJwA9VVb2noqLilyUlJR8DaO8bhDWanl1F3d3dNgA%2FDAQCvkOHDm2fOnXq8ZutZ8eOHd7p06ffb7PZLABe1Gg0tdF9pJQCgGnr1q2jZs%2BevdrpdHYA%2BHchxLUYfTnIREREDMFERESxQ3AkOI4G8Kyqqp3vv%2F%2F%2By%2Ffdd9%2F%2FAeiQUnb3E5xHAljZ1dUVf%2FHixQ82bty4b%2F369de%2FaA0LFiww%2FexnPyu44447ppvNZgXAG0KID%2ForORKAc4qLi7%2FvdDrzhBA%2FFUK8Fasz53siIiKGYCIios8LwQCQB%2BB5VVWD5eXlr8yZM6f3inA41s9Efi4TwGwA04PBYHtra%2BuJ5ubmqqtXr166dOnSdQCw2%2B2mlJQUj8FgMFmt1hSz2ZxqMpl8APYDeFsIUfl3ytUAMO%2FatSt%2FypQpP4iPjx8mhFgLYPffqYmDTERExBBMRET0uSEYAMYAWKOqatuRI0fe3Lp16%2F6NGzdeBhD8vPeVUqYBGA0gE0AygLhIUweA2sjXGgDVQohjX6BU3fLly53Lly8vGDNmzAKn0%2BkD8F8A3urvczAEExERMQQTERF9mRAMAHYAKzo7O79TXV29%2F8MPP9z56KOPXgDQJaUM34b6NAAMv%2FjFL1JKSkrmpKenz7BYLJUANgBo%2FHufgyGYiIjoUzqeAiIioi8UjK9LKf%2FbZDJdzs7O%2FtGQIUOGZ2dn%2F88bb7xxSAjRBKALQPfXUIYGgH7p0qVxy5Ytu3Ps2LH3JSYmFgohfgvgFSFEiCNFRET0JeZ3%2FmWYiIio%2Fyuo0SJ3ZL4LwPpAIGCsqqp699y5c3%2BpqKg48uyzzzYDCAMIAbiZCVYA0ALQPfLII9Y5c%2BaMysjIKMjIyJimKEocgGfRs%2F%2F3C%2F8OzvdEREQMwURERF86BEeF4WkAng8Ggx1%2Bv%2F%2Fd6urqE1VVVWd3795dXVpa2omeK8PdkUAs%2BwnGos9LA0AzceJEw6pVq1K8Xm9WWlraCK%2FXO8VoNKYBeAnAr79M%2BGUIJiIiYggmIiK66RAcFYbvBvCSlNKuqup7tbW1p%2Bvr6%2Bs7Ojout7e3N128eFE9cOBAa2lpaVefMCySk5M1kyZN0ufl5Sler9euKEq81WpNcrvdnrS0tMz4%2BPh7hBAKgP8EsDNSp%2FyKdXKQiYiIGIKJiIhuLgRHheF4AEsBfLe7u9ve3t7%2BV1VV61RVbVRVtfn69ettgUCgKxQKSb1erzWZTEZFUcx2u91qsViS7HZ7qqIoI3U6nR7AVgC%2FAuC%2FmfDLEExERMQQTERE9LXOrehZ1uwDMAk9%2B4eHRf7tBmBDz37fDgCtAJojQfdvACoBVAA4jZ69xZykiYiIbrH%2FB9v1Fjdblg8tAAAAAElFTkSuQmCC) no-repeat;
+  font-size: 2em;
+  height: 57px;
+  width: 961px;
+  margin-left: -17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003211}}
+.b-agreement .chapter .inner {
+  color: white;
+  margin-left: 451.5px;
+  text-align: center;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  width: 58px;
+  height: 56px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003221}}
+.b-agreement .chapter .inner.inner-1 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAaCAYAAADMp76xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODIyQUFENEE4MDkxQjM5RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3MjFDODI2MjBDNkExMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3MjFDODI2MTBDNkExMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjExNzQwNzIwNjgxMTgyMkFFNkRGMzU3QjcxMDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTgyMkFBRDRBODA5MUIzOUQiLz4gPC9yZGY6RGVzY3JpcHRpb24%2BIDwvcmRmOlJERj4gPC94OnhtcG1ldGE%2BIDw%2FeHBhY2tldCBlbmQ9InIiPz4tvJA2AAABL0lEQVR42uyXsU7DMBCGY1zsVgEJKSTq3AF179SFkZH34CF4FhbWvECnvAHPwBQYkpIokhMgMf9JQeoAU64iQT7pl2NnyOfT5X5bWGu9KcWJN7FwwA6YG1gIcSiRpum6bdunuq7vMZWH7zlixrFpY8wduk0gpdwopW5pMcuyHQYFmbGVhKqqalEUxTmy%2B9w0zQstIsNzDJK7JDgy7IVh%2BIjhDLrI8%2Fxaa708Vg1zAL9Db1BFiUVZtMf86TiAOwLtnzVkR90lXB92wA7474BFkiQr3%2FevaBJF0U0cxwE7MR3gh4haI9ztwf4SXdftYdNb2tDQb5HE0BsHDjVkwZdQ0LudD51CTW8mZCqvUEH8YzCOT6iEPn44O9h%2B3XAZyoyhpL6BS9clHLAD%2FofAXwIMABiY2ArkI8uaAAAAAElFTkSuQmCC) no-repeat center center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003221}}
+.b-agreement .chapter .inner.inner-2 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAaCAYAAADMp76xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODIyQUFENEE4MDkxQjM5RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQUZBMUZBMzBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQUZBMUZBMjBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjExNzQwNzIwNjgxMTgyMkFFNkRGMzU3QjcxMDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTgyMkFBRDRBODA5MUIzOUQiLz4gPC9yZGY6RGVzY3JpcHRpb24%2BIDwvcmRmOlJERj4gPC94OnhtcG1ldGE%2BIDw%2FeHBhY2tldCBlbmQ9InIiPz5%2F1jhxAAAB%2BElEQVR42uyX30rCcBTHXXMrlf4QlEEZ0YVg3UV35U3RVa%2FQteFD1HUE1UUv4Av0BkKSeSmEiN1pbZkiojXJaU7X99gmFoHihCntwJfftt%2BZ%2B3h%2B55zfxqiqahsnm7CNmVnAFvC%2FBWYYpqNMJrNQq9VOFEWJYIrajtpsNh%2Fq9fplqVTyMt%2FW9jVs1NYGkc4tCIIPcE%2BAS8ZisQCubQWDwb10On0NP7XVar3l8%2Fkd8jXyvM5zDQLzAI0SWDKZPMO5F1qB1gi8UCjc0Vyj0RBwPjUMYKM57OR5frd94HS6MBSgV%2BiFxnK5%2FEhzdrvdg%2Bhv6lE2s%2BgmEeE8HbAs28KgQPr4wXHcp%2B5YLBYdwwA2mhLzgUDgIBQKBbV0cHT99DQgbyglUIwVnK9SgEzPYWgRWoZmKdB6MaZSqX1Vs3g8fqX5MWYD62nFdi03W61WT9E53tHqcuFwmIqR8tc1Cl3iBziK7JBaHLqCmEgkznHND%2FmgOb1eRgIYcG5ARmRZvo9Go8e4tA1tQEvUQLqL22zgiUqlcoSies5msxfa0q9r%2Ber6qwuZCcyIouhX%2BzT8qVvcw5m5cbCSJHn6dUYBOn61vcHeYQb9RMKLDIfBraXATA932khyUAbPk4wA2w3c24RKUJ2Wuocv7X41SDYtwtYLvAVsAQ9mXwIMAN1UI6BHu4m8AAAAAElFTkSuQmCC) no-repeat center center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003221}}
+.b-agreement .chapter .inner.inner-3 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAaCAYAAADMp76xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODIyQUFENEE4MDkxQjM5RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQUZBMUZBNzBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQUZBMUZBNjBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjExNzQwNzIwNjgxMTgyMkFFNkRGMzU3QjcxMDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTgyMkFBRDRBODA5MUIzOUQiLz4gPC9yZGY6RGVzY3JpcHRpb24%2BIDwvcmRmOlJERj4gPC94OnhtcG1ldGE%2BIDw%2FeHBhY2tldCBlbmQ9InIiPz6V63%2FYAAACxElEQVR42uxXTYhSURT2jTqmNkMTTUzZpmwgmFa1qQwsKIYgiiBoYyshM4JZzCqHdtG23LoIxbXgwtlEOBMkuRhpIleimIYx4s%2FoOP7%2FvL5T98lDZhFzhTcDc%2BDjee996PfO%2B853joIoiqrDFBOqQxZHhA8sYUEQhkin07OtVut1r9dbxxEVhdjv9zdpj87k93IHFd1%2BIPEuFAo3QO5nu92Oh0KhJ9i74na7H21vb3%2FCfWK32%2F0ei8XmeH9v%2BLuchI91Op0fRCwcDr%2FE%2BiJwjq52u31RZAHyb7CnUZqwEIlErkqkMpmMG3vTTGY6wFwulzfprF6vf8XaOA7CPEUnWCyWLchhlxbVajWLSw8YAG1gR61W9%2BkM91B2J8dRdBoe%2BRMxh8Px2Gw2n3K5XJTFvvzcaDTO04d8Pr8xNpvg1DC9%2BtPAGeC4zHXUxWLxLcmhVqsll5aWbo5LEsJ%2BW7PMoiSSE81m04HrSXznvFarvZ1IJD4uLCx8wF4KKJJkuEcBzgzLwwDCX6QihCfXSqVSOJVKvSA3OSi2Jg%2BSxCWAXv%2BdYDD4CqR3iHyj0Xh%2FEGxtNLTACWCOefFlNIx3UsaTyeQtUpKStjYaXaACbAG%2FgV%2FRaHRNOpyamrrHHkoxDQuVSuUaOt0KXWm9h2VekDKczWZJFgbeDPP48KROp1uBG9zX6%2FWLWN9lDUOKQTwevy4tMAjVxjEd8nyBDgPP3%2BpHlnVyJ5A0bTKZHjCyeY%2FHs8o6oWKSmA4EAk%2BZfa15vV6zPBFoHMtsWtv1%2BXzPsXeWZKKkS1BWz%2Fv9%2FmeYIzaIHDL9GQTX8RAZzA%2FVXC63arPZHtIgBOiV7nRUZAZgFphxOp0zIEfjpQqE1Var9RvTdJGh9Y8vX6fjbc0Cm8KMLINaticysnWgySxvKEElCY8WsIYRHrDJbbBXzShC%2BOhf83%2FGHwEGALBN7bTbq0F4AAAAAElFTkSuQmCC) no-repeat center center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003221}}
+.b-agreement .chapter .inner.inner-4 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAaCAYAAADMp76xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODIyQUFENEE4MDkxQjM5RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQUZCM0ZERTBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQUZBMUZBQTBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjExNzQwNzIwNjgxMTgyMkFFNkRGMzU3QjcxMDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTgyMkFBRDRBODA5MUIzOUQiLz4gPC9yZGY6RGVzY3JpcHRpb24%2BIDwvcmRmOlJERj4gPC94OnhtcG1ldGE%2BIDw%2FeHBhY2tldCBlbmQ9InIiPz7TY54CAAACEUlEQVR42uxXTUsCURRtPrTUcOEURSsTw10LNxL5A9pKyzb5F9qGK7dBLbT6DX2AtQnpB4iK5S4SFMKFqWhooqOjTufKGFJEZDPMBF04zHt3Hu%2BduXPvuTOMLMszf8nYmT9m%2F4QNSZhhmO%2FANJvNtU6ns1Wv14XJe4aMcCaTWbJarRcWi%2BWm1%2Bv51TxHC8Imj8dzwPP8Ok1qtdo8LrxRCXONRiNks9l2xg6khZmyyIiEmUKh4Lfb7aFUKhU1vEokEollp9N5VS6Xr30%2BX0wrwmrlltnr9Z51u91SOBw%2BpNQ1MmG%2B1WqNiiwSiexGo9GcmkX2yehb4qeYTKlKpRKET04mk%2FuYrwJzwIqsWDqdDmI%2B%2B5vzJvGbHGaKxeKmIAhH%2BXz%2BBHl7CV8V6BqyNVNzgB232%2B1Ht9t9Ctcz0KYgakmYmebzEi2WRVS3XS7XGQjnMK8hhyVcR5tJkmRGl9ugsSiKDxzHVfv9%2Fjm63zHOG%2BpRdFypVBIdDsc98WdZ1jwYDN73Gg6HHAiPxvCbQHYOhWkjNaFn0CPCRG6BigsgZoMPS%2Bax7y0NYrHYfiAQuFVSpgq%2FqEeEieALdd4v9lgcD%2FAWaN0T0AJ6eumwrKjBV4rwLmPIW4poQy31%2BP%2Fj0Nq0aqFSPB7fg7yZstnsnZraPK1KfLfECggkf0pxvpLajVuzEQmzClla2B%2BT1Y2wnvYmwAAXKy6xsU%2FpWwAAAABJRU5ErkJggg%3D%3D) no-repeat center center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003221}}
+.b-agreement .chapter .inner.inner-5 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAaCAYAAADMp76xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODIyQUFENEE4MDkxQjM5RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQUZCM0ZFMjBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQUZCM0ZFMTBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjExNzQwNzIwNjgxMTgyMkFFNkRGMzU3QjcxMDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTgyMkFBRDRBODA5MUIzOUQiLz4gPC9yZGY6RGVzY3JpcHRpb24%2BIDwvcmRmOlJERj4gPC94OnhtcG1ldGE%2BIDw%2FeHBhY2tldCBlbmQ9InIiPz5gjahyAAACUUlEQVR42uxXTWgTQRjNNmNa41oFUUjB4h%2FUXkSkFOuhtxy8FSEnz%2BaWq5egF%2FEkSM6C9NDgpaLHHBIKoUiuBlNIIARC0pIfAu3mP9lkfV%2BYgRUSWzKLm0oHHjt%2Fy7759n1vZhTDMBznqcw5zlm5IDyzhBVFEWC9Xm8bXcbfUCgUVhV6YQYivKDr%2BsPTJmUymUVap%2BzHmAWE5xljy7FY7IPX6%2F2B9mDMnGMgb4UkrCDsdLlcS5qm%2FUL9J9AfM6cHNLg8bCWsRCKR%2B1RJJpMHeBxNIGxdoY1jGogFp1Kpl9Cwhvrts%2BTEtN8TkE06p6qq94bDoQbim91u95thKq1W620ul7s5SxF2F4vFj0SuVqt9DQaDa%2Bh77Pf7vWjvUT8Wc1ytVp8Jh5CNsCxhtVwuf87n819QfwQsAR7gAbCBsX1BOpFIeGaBsBu4C5AP06%2B%2FxCNJT084HH4l5IGIvyfN202YcdLuMY4zD6yYCO%2FSPFnCsramczgmeG9TNAaDAbPC92Vcwtlut99Q9OAO22PIGKFQ6KpoNBqNQ7tPawvg%2BnykC8ZecFn8sSn5fL4t0YhGo5EJ2%2FY%2Fs7XrOIHtUISbzWaGJ525XOn3%2BwUaz2azpN87lIx2Jp0aCAQ26%2FV6FpI4KpVKr%2FkfU5BgG%2BgbWRr66UD0BLhGY3YSZtxzn6bT6U%2BdTufAvMtVKpXv8Xj8HcbXgVtC47KElWkvofws7iJpADeAy9yDBXTuEjXgRLiJ7KVXlvDILSgBOWHGZUHJ1QU63N6G5pyxhfDFJfR%2FJfxbgAEAii7v5Sztc%2BcAAAAASUVORK5CYII%3D) no-repeat center center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003221}}
+.b-agreement .chapter .inner.inner-6 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAaCAYAAADMp76xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODIyQUFENEE4MDkxQjM5RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQUZCM0ZFNjBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQUZCM0ZFNTBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjExNzQwNzIwNjgxMTgyMkFFNkRGMzU3QjcxMDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTgyMkFBRDRBODA5MUIzOUQiLz4gPC9yZGY6RGVzY3JpcHRpb24%2BIDwvcmRmOlJERj4gPC94OnhtcG1ldGE%2BIDw%2FeHBhY2tldCBlbmQ9InIiPz6KsO%2FbAAACuElEQVR42uxXTYhSURT2PZ%2F2bKqRsHKmiWpT01Arx0XRokWboEXQxqWuhFy7iCBidi1mMxs3YbSMfiCYILOFGCm6CEYCW4hgoilqYv6lPrXv2L2DDELge6FCFz7ePede7vveued%2B5z5hOBzqFqmJugVrUxMWBOFvELrdrl340%2Fb98xZhoVgsXux0Ok8Hg0FVkqQXqVRqg%2FyavYFyeBpMaPpWq%2FUQY8NmsxkNhUL34FsHzOOBmfZ9%2B%2B%2FViLDUbrefEdlCofAGth24AJwADo1HeB4IS41GY4fI5vP5XdibwAogT0q5WRMWQfIOkVUUpe52u2%2FCd5I%2BQusU1IqwjFT4RISTyeQT2GcBw784MxySGkWIRqMbsixfIyMYDO5mMplNq9V6WxTF83BVEfUPJpPJh%2F5gHlTCAAl7PGStXC6%2Fgjq8zeVy26VS6TX302EcT5FZpsRSpVJ5yYnFYrEH8F0CSHftfr%2Ffw8dqtdoWyd6sCS%2FX6%2FU4EQLxPdiXAQtwjD2vZLPZdzTe6%2FWysI9oQVhNpdNjgZG%2BoqIpeFSAH8BP1s9Xq9UEG19LJBJXtah4aggLnDAFDuiOHS6yf2EHUmPzT%2FG0mBVhys2vI22T5dUJ0esbDAaFG0gLSYu7i5oFFKjBF%2BoYjcYVn893%2FOAEi8VyZsS832%2FYbLaPLPIzkzUqveuQrQIdLMjZ%2FQMVbgk78J7G0un0c1auxVmqBO2ONRwObxEpRLEWCATW%2BM6hiNwlP%2BWxx%2BO5Ad%2FReSjNh0l74%2FH4Dt0lkKffQPARv7lBJT67XK5bmLPKo6%2BWsDDtPx37exCZ7p52Op3nvF7vdbPZbES09ZFIZM%2FhcFCOfwdKQIcT1qmUJjWEOWmK9DJ78gGSuTpDd%2FzMqGmSBtcR0t4G6S5bT2I%2BkrSeJsqgBeEJkVIY%2Fv%2FmLzTh3wIMAIrdOAkYlxY9AAAAAElFTkSuQmCC) no-repeat center center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003221}}
+.b-agreement .chapter .inner.inner-7 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAaCAYAAADMp76xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODIyQUFENEE4MDkxQjM5RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQUZEM0E3OTBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQUZEM0E3ODBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjExNzQwNzIwNjgxMTgyMkFFNkRGMzU3QjcxMDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTgyMkFBRDRBODA5MUIzOUQiLz4gPC9yZGY6RGVzY3JpcHRpb24%2BIDwvcmRmOlJERj4gPC94OnhtcG1ldGE%2BIDw%2FeHBhY2tldCBlbmQ9InIiPz47uy6ZAAACC0lEQVR42uyYz0sCQRTH23UzLSPNCIJ%2BQLcUbyJIp05Bx0516W71Z0R%2FgGUHL0VCoceQwC4dvHTSQzd%2FgRWIaEllLbi623dihFiwwplFBR98lzfsDvv2s%2B%2FNm11B07SRQTJxZMBsGPAwYJ1J3U4UBEGUZTkAd%2FpPKqKo1ev1mNPpzGqMVS4xzLVA2xaLZfU%2FF2cymWvynFDPAjY3m01zq9WqFwqFm0aj8aa%2FQFVV0eVybVYqlVu%2F31%2FqaUrATOSQSqVOfT5fDO6njp4Yj8fXPB7PTjQaPcNYZqX7bSSluhHMiby8C4fDG%2FBnIZtOM%2BR8qVS6gr9M3gjL%2FdpiIazYbLYtSvYFav6kWywW161W60okEjmg5xUuywQD4VFonJIT9AWJnL5Hbh%2FBX2rT7TnhDtREFNm%2ByWRaDIVCFxjXuNFlJNzJJhRFeQDdY%2Fjz%2BsJmJcy704nlcnkXTcUeDAYvMX7V5XZ%2FEU4kEvOg%2B9iJbr8RlrxebwB0pwyjy5MwmsQCut5rPp8PdaLLgzCvgKVqtXqIpewJvgea5A2Ia0qA7pzD4djL5XLnGD7TZmKMcSAs1Wq1E0rXRZY1I%2B7Hi7CQTqfddrs9kM1mI7RJyP38xSGA7lgymQy43W6yIyNbTNXIgIVuPwCwfLUfeJLuKUjevv8VMOtvBYm1BKAPKtVoukwBU1KaIc3hF%2FsSYADOIzliaSnqCwAAAABJRU5ErkJggg%3D%3D) no-repeat center center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003221}}
+.b-agreement .chapter .inner.inner-8 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAaCAYAAADMp76xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODIyQUFENEE4MDkxQjM5RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQUZEM0E3RDBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQUZEM0E3QzBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjExNzQwNzIwNjgxMTgyMkFFNkRGMzU3QjcxMDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTgyMkFBRDRBODA5MUIzOUQiLz4gPC9yZGY6RGVzY3JpcHRpb24%2BIDwvcmRmOlJERj4gPC94OnhtcG1ldGE%2BIDw%2FeHBhY2tldCBlbmQ9InIiPz6mLwb3AAAC2ElEQVR42uxXW4tSURT2nBnNLiNBTk5ByFQaFV3o8hBEDxERvVQgzYMPMuKLw0D0B4reehCCEiR6SrIEoQiCgR7EHoOgUTLRZNC80NiY4z1v5%2FStYZ%2FhMBCEJzgOzIKPfVlHz3f2Xutbe3OiKGo2k%2FGaTWZbhEeWMMdxcvDtdnt%2BMBgswiUKgpChtt%2Fvv6nVatfJLz2r2CjphoFksVjM1O12P2BOzGQyjzF1Bjjt9Xpv4CO%2B0ny1Wr0jLc6w71t%2Fr0LC4%2FV6%2FQmRSiaTTzE%2BBRwA9gMWj8dzW2QWj8dP0MaoTdggEQqHw%2FMYG4ExIgboAWulUvlM%2FlKp9BBjrVLCSpNOL3VMJpMWTQMY0M4DHWCV53mB%2FJ1OZxsRVlslxpBoRFJjNptn2Oqupwcg6PX6fTSIRqMf%2F4tMKAyJyUQi8UwKi16vFyuXyxdYSPCpVGqG5nO53ALGBwGd2jG8CzgJYq9FmWH73yJ272L1q1COV3jmLLB7FJKOQmAPcC6bzb4XN1iz2UxGIpE5%2BPeSooyCrHHFYvEiVvQLkbPZbPZgMPgAYRGTE4cePx8Fwlw6nT6OqraKilZzu92XMXcEOAZcCoVC91EwliTSjUaDisq4moR1KBoBIoNVfofxNJM5wiRw1G6335RIUzxjbkJNHSZdPUydVqv1HQ0R%2Bs1QBjKBQGARFljTT543oNmupg5T1Vr7%2FQ4Ymp7MR8WiDayAaF6u22oSFpeXlz9Rx2g0XvnLfw2sVut56hQKhQX2IaoVjp2kwYjjNEuqF5ISSIuRz%2BdvUULC940lpUHNpKPtNTmdzmtQixCRBrksJOwRYvoeFQ%2Bagz6%2FdLlcV9kJTvHhhxv2EsoO4zpWOKZmZ2enHA7HtMViOQTiFSjHD7%2Ffv%2BTz%2BVbg%2Fwn8ojOQ0kuvUsIaFgaUdBNMOXh2YhNYItLhqAX0pRBUm7A8gbUyJegzCBtzRhXCW7fmf7Q%2FAgwARfOC4obumQMAAAAASUVORK5CYII%3D) no-repeat center center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003221}}
+.b-agreement .chapter .inner.inner-9 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAaCAYAAADMp76xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODIyQUFENEE4MDkxQjM5RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQUZEM0E4MTBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQUZEM0E4MDBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjExNzQwNzIwNjgxMTgyMkFFNkRGMzU3QjcxMDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTgyMkFBRDRBODA5MUIzOUQiLz4gPC9yZGY6RGVzY3JpcHRpb24%2BIDwvcmRmOlJERj4gPC94OnhtcG1ldGE%2BIDw%2FeHBhY2tldCBlbmQ9InIiPz4VNZDBAAACi0lEQVR42uyXwYsSURzHZ5xx2xUlim0Dodgi6hREGxJRl7p06i%2Fo5E2oQyZ0iCKq8xyCYCGIdulSkBc1PGkUeBCERRDN8pBJJgk6q466jk7fX7y3TMZG7CzNLOwPvgzv%2FR7M57157%2Ft7IxqGIeymcAm7LPaAHQssiqJZ0mAwuDcej9eQokNh6Lr%2Brt%2Fv30DOZR5rOejQbUc88vn8YcCtAVYtlUqP0XUuFApdbjabbzDOAPQK%2BmSr79t8r0XgmeFw%2BJ7AyuXyMtqnoaPQMQJXVTVHOTwfoi3ZDezCKt42WNCqou8gA3ND%2Fkwmc59ytPrxePyI3cBzrVbrNQF1u91PaC%2BaPz3lw%2BHwBT6her1%2Bh%2FJWga24xIwsywQpYAXX8dAg3ZTfUBTlG29MJpOFqQn9d1uTMONfxx7gXmKayo%2BhYbvdJucQcDBlu4EFwHykp8fjOZlKpY6T201D%2B3y%2BE04pHBuJROIVbwQCgQfssG1adS6XOytJkndHK4eFQ0dwi9ls9gk%2FWGRxvV7vZqfTuY5C8gIq8Bxs7xHGe%2B10Cfr8PvLeaDR6F5CfOdxoNPpaq9WUZDJ5i%2FdFIpHzGDtrd%2BGgLbUfOgVdhK5Al6ho0ESq1epLgm00Gh9YQbFsa1ZPLTlDh9wA%2BkFWx1Zeh6Ud8vv912hQOp1%2Bzsbptt8ltgg39nKCVrdQKBAsOcU%2BJ9wl%2FghcgBY0TVslWOzjt%2Bg6w7aN6DRgFzkECsQXaL1YLD5D3xI0zy8%2BTgGWYV8Kd4dKpfI0GAxeZTe3%2BenqZhVY3O5PqOkyPhuLxZbw%2BQ%2FgxvYd7T6kMmmsRP8GbCV2AtjN%2FHgOGjHIwVaO4ARg0XSHMJj%2B6kq2AO%2F9Nf9j%2FBRgAGANOC91adFhAAAAAElFTkSuQmCC) no-repeat center center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003221}}
+.b-agreement .chapter .inner.inner-10 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAaCAYAAADMp76xAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMjgwMTE3NDA3MjA2ODExODIyQUFENEE4MDkxQjM5RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQUZGM0E2RTBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQUZGM0E2RDBDNkIxMUUyOTkyM0IzQTEzOUNENzZCRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjc3RjExNzQwNzIwNjgxMTgyMkFFNkRGMzU3QjcxMDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTgyMkFBRDRBODA5MUIzOUQiLz4gPC9yZGY6RGVzY3JpcHRpb24%2BIDwvcmRmOlJERj4gPC94OnhtcG1ldGE%2BIDw%2FeHBhY2tldCBlbmQ9InIiPz4DtJLqAAAC%2B0lEQVR42uxXS2sTURTOJJPGSRoQFatSUCQUEREXajAIFcRF8U%2FYTQl2kU23FpcRNz66ycaAS7GgUJFkFUWKiGIJaDZpSQghDXnUvDOZJON3wr1lGBuclIFQyIGPzLnn3LnffX0nI6iqajlKZrUcMZsQnhA%2BDGFBELQQcrncpV6v97Pdbj%2BCaxvSx4r4cqfTeYeLvYf8rX6%2Fn4IfbjQaCxTXvtuwkUr8DzSxVqu13Gw2V2VZfq8yy%2BfzTxCT9PnxeHwGxD5RDib3CjlXgSuBQOA2JvGL2mu12mO02UbhMeBikPCxQqGwgsGfplKpFxg0R4Om0%2BnniE3rckWQeUnxYrEYg38NmAVOAxeWlpbudbvdGos%2F4LtsOmHgDOABrpfL5a2DCNMOJ5PJO3wHNjc3V1k%2FkcUdwMXt7e03FFcUJQPfOQpho5euA%2FwBdgk2m603JM%2FudrsXuOPz%2Bd5SPwzUZaRk%2FJQw0c%2BDrRDFWZC%2FP8rlN5rYB9pAHWjR2EPyplwu1zw94GIl8VNlk9VaOxqNfuOO0%2Bm8SdzHJWt2KMHgIkEViKyMVe3rcpRgMJjfdxTFTv3GRdgKglyjVLYzelWiNkXjU74wLsIq5C9LDzgacwcRIf1NJBLz3IdMVsdZ6XqlUuk3PeBiuiORiEf4tyqIkiR5uPMFRv3MLhxaO1mpVL4PkTUJuIxV3tUUFrvuXdP1ev0rxTOZzEfSZi57Zurw%2Fo7GYrEbEP4qDQhiifX19fPaiki6u7GxsUJxXLzKzs4Obb%2FA41SAWKVL%2Bv3%2Bu2g7zuNmEhZx1sLqEIMy7OEo3GJnllZ5LhwOP8RO%2FCDSKOnPqKwDryk%2Fm81%2BWFxcJL0%2BxxXCKGHByBcHjiFVulN0HGhL6U6xgWSmzVRUSKoqXF6BGcpfW1s76%2FV6TzgcDgWEHZhIOhQKlVkRKrF3WIx%2B%2BRglLDISkvYPi0a%2BFEZcZj6t9BSbmMR83k6y1gCaOnkzlfBhVUNgE7RqSHeH6LN5hCdfHBPCE8Lm2V8BBgCcbE%2BME1ajVQAAAABJRU5ErkJggg%3D%3D) no-repeat center center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003227}}
+.b-agreement .chapter-10 .inner {
+  width: 38px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003231}}
+.b-agreement h1, .b-agreement h2 {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003235}}
+.b-agreement h1 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003242}}
+.b-agreement h2 {
+  color: #333333;
+  font-size: 1.1667em;
+  line-height: 1.1667em;
+  margin-bottom: 0.5em;
+  /*margin-left: 4*$bw;*/
+  margin-top: 1.1667em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003251}}
+.b-agreement ul {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003255}}
+.b-agreement ul li {
+  list-style-type: disc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003258}}
+.b-agreement ul li li {
+  list-style-type: circle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/b-agreement\.css\.scss}line{font-family:\00003264}}
+.b-agreement p {
+  line-height: 1.25em;
+  margin-top: 0.75em;
+  margin-bottom: 0;
+  text-indent: 1.5em;
+}

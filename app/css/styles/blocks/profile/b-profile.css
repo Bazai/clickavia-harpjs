@@ -1,0 +1,129 @@
+@charset "US-ASCII";
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/*
+
+  project specific SASS mixins
+
+*/
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/* центрирование элемента */
+/* кнопка навигации слайдера */
+/* круглая кнопка, используется в оформлении заказа */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile\.css\.scss}line{font-family:\000034}}
+.b-profile {
+  min-height: 360px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile\.css\.scss}line{font-family:\000037}}
+.b-profile > .header {
+  font-weight: normal;
+  margin-bottom: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile\.css\.scss}line{font-family:\0000311}}
+.b-profile .subheader {
+  font-size: 15px;
+  color: #42a80b;
+  font-weight: normal;
+  margin-bottom: 6px;
+  padding-left: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile\.css\.scss}line{font-family:\0000319}}
+.b-profile .b-info-block {
+  float: left;
+  width: 272px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile\.css\.scss}line{font-family:\0000323}}
+.b-profile .b-info-block .inner {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile\.css\.scss}line{font-family:\0000327}}
+.b-profile .b-info-block .inner .hr {
+  margin-left: -15px;
+  margin-right: -15px;
+}

@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/*
+
+  project specific SASS mixins
+
+*/
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/* центрирование элемента */
+/* кнопка навигации слайдера */
+/* круглая кнопка, используется в оформлении заказа */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_section\.css\.scss}line{font-family:\000035}}
+.b-feedback-popup .sections .section {
+  font: normal 12px/16px Arial;
+  float: left;
+  padding: 8px 10px 5px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_section\.css\.scss}line{font-family:\0000312}}
+.b-feedback-popup .sections .section:hover {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_section\.css\.scss}line{font-family:\0000315}}
+.b-feedback-popup .sections .section.active {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  background: white;
+  font-weight: bold;
+  border: 1px solid #CFCFCF;
+  border-bottom: none;
+  padding-bottom: 6px;
+  padding-top: 7px;
+  cursor: default;
+  text-decoration: none;
+}

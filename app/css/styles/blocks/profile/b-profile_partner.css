@@ -1,0 +1,248 @@
+@charset "US-ASCII";
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/*
+
+  project specific SASS mixins
+
+*/
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/* центрирование элемента */
+/* кнопка навигации слайдера */
+/* круглая кнопка, используется в оформлении заказа */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\000037}}
+.b-profile .partner .clear {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000311}}
+.b-profile .partner .b-info-block {
+  width: 304px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000314}}
+.b-profile .partner > .info {
+  margin: 0 0 36px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000317}}
+.b-profile .partner > .info .chzn-drop {
+  width: 260px!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000320}}
+.b-profile .partner > .info .chzn-single {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000323}}
+.b-profile .partner > .info .text {
+  float: left;
+  font-size: 13px;
+  margin-right: 48px;
+  width: 304px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000329}}
+.b-profile .partner > .info .text.social {
+  width: 608px;
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000333}}
+.b-profile .partner > .info .text.social .b-oauth-provider {
+  display: block;
+  float: left;
+  height: 66px;
+  width: 304px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000341}}
+.b-profile .partner > .info .details {
+  margin-right: 32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000344}}
+.b-profile .partner > .info .title span {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000347}}
+.b-profile .partner > .info .api-token {
+  display: block;
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000352}}
+.b-profile .partner > .info .generate-token,
+.b-profile .partner > .info .remove-token {
+  color: inherit!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000355}}
+.b-profile .partner > .info .generate-token .token-button,
+.b-profile .partner > .info .remove-token .token-button {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000358}}
+.b-profile .partner > .info .generate-token .token-button:hover,
+.b-profile .partner > .info .remove-token .token-button:hover {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000365}}
+.b-profile .partner .meta {
+  margin: 0 0 36px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000368}}
+.b-profile .partner .meta h2 {
+  text-align: center;
+  margin: 27px 0 29px;
+  font-size: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000374}}
+.b-profile .partner .meta .meta-data {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 928px;
+  font-size: 13px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid white;
+  border-top: 1px solid rgba(99, 99, 99, 0.3);
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000387}}
+.b-profile .partner .meta .meta-data th {
+  font-weight: bold;
+  height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000390}}
+.b-profile .partner .meta .meta-data th.month-header {
+  width: 115px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\0000395}}
+.b-profile .partner .meta .meta-data th, .b-profile .partner .meta .meta-data td {
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid rgba(99, 99, 99, 0.3);
+  border-top: 1px solid white;
+  border-right: 1px dashed rgba(99, 99, 99, 0.3);
+  padding: 9px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\00003104}}
+.b-profile .partner .meta .meta-data th:last-child, .b-profile .partner .meta .meta-data td:last-child {
+  border-right: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\00003108}}
+.b-profile .partner .meta .meta-data th.header, .b-profile .partner .meta .meta-data td.header {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\00003111}}
+.b-profile .partner .meta .meta-data th.subagent, .b-profile .partner .meta .meta-data td.subagent {
+  font-size: 11px;
+  max-width: 75px;
+  padding-right: 5px;
+  word-break: break-all;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\00003124}}
+.b-profile .partner .meta-info > div {
+  float: left;
+  margin-right: 16px;
+  min-width: 320px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\00003129}}
+.b-profile .partner .meta-info > div p {
+  margin: 0;
+  line-height: 1.2667em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\00003133}}
+.b-profile .partner .meta-info > div p span {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile_partner\.css\.scss}line{font-family:\00003140}}
+.b-profile .partner > .orders .load-details {
+  color: #76b718;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 50px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\0000342}}
+.b-profile .partner > .orders .load-details:hover {
+  color: #67a015;
+  text-decoration: underline;
+}

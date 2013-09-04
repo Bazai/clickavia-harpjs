@@ -1,0 +1,455 @@
+@charset "UTF-8";
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/*
+
+  project specific SASS mixins
+
+*/
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/* центрирование элемента */
+/* кнопка навигации слайдера */
+/* круглая кнопка, используется в оформлении заказа */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\000035}}
+.b-feedback-popup .topic-row,
+.b-feedback .topic-row {
+  overflow: hidden;
+  padding: 6px 0 10px;
+  position: relative;
+  border-bottom: 1px dotted #CBCBCB;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000311}}
+.b-feedback-popup .topic-row:first-child,
+.b-feedback .topic-row:first-child {
+  margin-top: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000314}}
+.b-feedback-popup .topic-row:last-child,
+.b-feedback .topic-row:last-child {
+  border-bottom: none!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000317}}
+.b-feedback-popup .topic-row > .votes,
+.b-feedback .topic-row > .votes {
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 5px;
+  width: 62px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000326}}
+.b-feedback-popup .topic-row > .votes span,
+.b-feedback .topic-row > .votes span {
+  color: #898989;
+  display: block;
+  font-weight: normal;
+  font-size: 11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000334}}
+.b-feedback-popup .topic-row > .content,
+.b-feedback .topic-row > .content {
+  margin-right: 107px;
+  margin-left: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000339}}
+.b-feedback-popup .topic-row > .content > .title-line .title,
+.b-feedback .topic-row > .content > .title-line .title {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000346}}
+.b-feedback-popup .topic-row > .content > .details-line,
+.b-feedback .topic-row > .content > .details-line {
+  color: #ACACAC;
+  font-size: 11px;
+  line-height: 16px;
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000352}}
+.b-feedback-popup .topic-row > .content > .details-line .user, .b-feedback-popup .topic-row > .content > .details-line .date,
+.b-feedback .topic-row > .content > .details-line .user,
+.b-feedback .topic-row > .content > .details-line .date {
+  color: #555;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000355}}
+.b-feedback-popup .topic-row > .content > .details-line a,
+.b-feedback .topic-row > .content > .details-line a {
+  color: #555;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000358}}
+.b-feedback-popup .topic-row > .content > .details-line a:hover,
+.b-feedback .topic-row > .content > .details-line a:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000362}}
+.b-feedback-popup .topic-row > .content > .details-line .sep,
+.b-feedback .topic-row > .content > .details-line .sep {
+  margin: 0 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000368}}
+.b-feedback-popup .topic-row .status,
+.b-feedback .topic-row .status {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  text-shadow: none;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  color: white;
+  display: inline-block;
+  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 5px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003231}}
+.b-feedback-popup .topic-row .status.editable,
+.b-feedback .topic-row .status.editable {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003236}}
+.b-feedback-popup .topic-row .status.known, .b-feedback-popup .topic-row .status.under_consideration,
+.b-feedback .topic-row .status.known,
+.b-feedback .topic-row .status.under_consideration {
+  background-color: #FBA344;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003238}}
+.b-feedback-popup .topic-row .status.known.editable:hover, .b-feedback-popup .topic-row .status.under_consideration.editable:hover,
+.b-feedback .topic-row .status.known.editable:hover,
+.b-feedback .topic-row .status.under_consideration.editable:hover {
+  background-color: #f79429;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003241}}
+.b-feedback-popup .topic-row .status.known.editable:active, .b-feedback-popup .topic-row .status.under_consideration.editable:active,
+.b-feedback .topic-row .status.known.editable:active,
+.b-feedback .topic-row .status.under_consideration.editable:active {
+  background-color: #f9b264;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003247}}
+.b-feedback-popup .topic-row .status.planned, .b-feedback-popup .topic-row .status.need_answer,
+.b-feedback .topic-row .status.planned,
+.b-feedback .topic-row .status.need_answer {
+  background-color: #B0B5BF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003249}}
+.b-feedback-popup .topic-row .status.planned.editable:hover, .b-feedback-popup .topic-row .status.need_answer.editable:hover,
+.b-feedback .topic-row .status.planned.editable:hover,
+.b-feedback .topic-row .status.need_answer.editable:hover {
+  background-color: #a2a6af;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003252}}
+.b-feedback-popup .topic-row .status.planned.editable:active, .b-feedback-popup .topic-row .status.need_answer.editable:active,
+.b-feedback .topic-row .status.planned.editable:active,
+.b-feedback .topic-row .status.need_answer.editable:active {
+  background-color: #c3c5cb;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003259}}
+.b-feedback-popup .topic-row .status.in_progress, .b-feedback-popup .topic-row .status.solving, .b-feedback-popup .topic-row .status.not_a_problem,
+.b-feedback .topic-row .status.in_progress,
+.b-feedback .topic-row .status.solving,
+.b-feedback .topic-row .status.not_a_problem {
+  background-color: #6F7379;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003261}}
+.b-feedback-popup .topic-row .status.in_progress.editable:hover, .b-feedback-popup .topic-row .status.solving.editable:hover, .b-feedback-popup .topic-row .status.not_a_problem.editable:hover,
+.b-feedback .topic-row .status.in_progress.editable:hover,
+.b-feedback .topic-row .status.solving.editable:hover,
+.b-feedback .topic-row .status.not_a_problem.editable:hover {
+  background-color: #5c5d5e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003264}}
+.b-feedback-popup .topic-row .status.in_progress.editable:active, .b-feedback-popup .topic-row .status.solving.editable:active, .b-feedback-popup .topic-row .status.not_a_problem.editable:active,
+.b-feedback .topic-row .status.in_progress.editable:active,
+.b-feedback .topic-row .status.solving.editable:active,
+.b-feedback .topic-row .status.not_a_problem.editable:active {
+  background-color: #898b8c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003271}}
+.b-feedback-popup .topic-row .status.completed, .b-feedback-popup .topic-row .status.solved, .b-feedback-popup .topic-row .status.answered,
+.b-feedback .topic-row .status.completed,
+.b-feedback .topic-row .status.solved,
+.b-feedback .topic-row .status.answered {
+  background-color: #40BF00;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003273}}
+.b-feedback-popup .topic-row .status.completed.editable:hover, .b-feedback-popup .topic-row .status.solved.editable:hover, .b-feedback-popup .topic-row .status.answered.editable:hover,
+.b-feedback .topic-row .status.completed.editable:hover,
+.b-feedback .topic-row .status.solved.editable:hover,
+.b-feedback .topic-row .status.answered.editable:hover {
+  background-color: #3cad03;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003276}}
+.b-feedback-popup .topic-row .status.completed.editable:active, .b-feedback-popup .topic-row .status.solved.editable:active, .b-feedback-popup .topic-row .status.answered.editable:active,
+.b-feedback .topic-row .status.completed.editable:active,
+.b-feedback .topic-row .status.solved.editable:active,
+.b-feedback .topic-row .status.answered.editable:active {
+  background-color: #46cb03;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003281}}
+.b-feedback-popup .topic-row .status.declined,
+.b-feedback .topic-row .status.declined {
+  background-color: #FF7272;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003283}}
+.b-feedback-popup .topic-row .status.declined.editable:hover,
+.b-feedback .topic-row .status.declined.editable:hover {
+  background-color: #fc5656;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003286}}
+.b-feedback-popup .topic-row .status.declined.editable:active,
+.b-feedback .topic-row .status.declined.editable:active {
+  background-color: #fd9292;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000372}}
+.b-feedback-popup .topic-row .add-vote,
+.b-feedback .topic-row .add-vote {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAABXCAYAAAAj6%2BQnAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A%2FwD%2FoL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wIHQcONxhaLHMAAACDSURBVDjL7ZFLDkBAEER7ZFyAnZu4%2FyEsHMCGEJEwfmWrKxZGEAu9m5eqzqSfybocshsbh9H%2BLWZYnEoYAAoEQnMBWNopFpwQcEW4ciIB7394Lz2ocGK9YYdbnQbt3GlQjbUGaTPRTeNEy8bQ%2F7I%2FKBtjT6AltygLedzcL%2FsV2eJb2QACeKfgAT6O7wAAAABJRU5ErkJggg%3D%3D) repeat-x 0 -58px;
+  border-color: #1AC131;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  float: left;
+  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+  height: 29px;
+  margin-right: 20px;
+  text-decoration: none;
+  height: 20px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAA8CAYAAABB2Bu%2BAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A%2FwD%2FoL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wIHgQFBFSNhRkAAABrSURBVCjP7ZCxDoAgEEMPw1f5%2F19B4qCjkyHgAHp19Uoig6N2fGl7l7qQJshNLtVsAQADBiE1wFNCPISBcoQ7lCztFVXtdTQOsIMf60fykS1YymrBuFWxE6b4b%2FoY2aMF5xzk5WKf3xQdxwWfLHseG4f4KAAAAABJRU5ErkJggg%3D%3D) repeat-x 0 -40px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  position: absolute;
+  right: -5px;
+  top: 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\0000369}}
+.b-feedback-popup .topic-row .add-vote:hover,
+.b-feedback .topic-row .add-vote:hover {
+  background-position: 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\0000372}}
+.b-feedback-popup .topic-row .add-vote:active,
+.b-feedback .topic-row .add-vote:active {
+  background-position: 0 -58px;
+  border-color: #C4C4C4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\0000376}}
+.b-feedback-popup .topic-row .add-vote > .how-vote,
+.b-feedback .topic-row .add-vote > .how-vote {
+  border-right: 1px solid white;
+  color: #111;
+  cursor: inherit;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  margin-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\0000388}}
+.b-feedback-popup .topic-row .add-vote > .how-like,
+.b-feedback .topic-row .add-vote > .how-like {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAOCAYAAADJ7fe0AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A%2FwD%2FoL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wFHAsyIKFMivsAAADFSURBVCjPpZKxCsIwEIa%2FFhEKiiK4OgRFcHNxEuID%2BApZ%2BwjugpurIM55DBcDgouCT5DZqSAITkWXCg5tE%2B03XS4%2FH8dxAQ6UEWegAcy0tLe8TIibPjAEVkWB0DFFB4iy5%2BQvCbAE6lmd%2FCxRRvSB%2BKt1KcoGJZIDIB2TLrS060AZ8coady1tWxmxA0bA1GPpT6BZy%2FmI8WerpU1DqtHzvZMiUuBYVZIA%2B6qSCGgVSa6ekrmW9pQr0dKOgQGwAR4lku6neAOIlyd78ZFIPgAAAABJRU5ErkJggg%3D%3D) no-repeat;
+  background-position: 50% 45%;
+  background-repeat: no-repeat;
+  border-left: 1px solid #E8E8E8;
+  cursor: inherit;
+  float: left;
+  height: 29px;
+  width: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\0000398}}
+.b-feedback-popup .topic-row .add-vote:active > .how-like,
+.b-feedback .topic-row .add-vote:active > .how-like {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAOCAYAAADJ7fe0AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A%2FwD%2FoL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wFHAs1AjttXdgAAAC7SURBVCjPpZIxCsJAEEVfgggBRRFsrSKCnY3FR9ADeI4cwV6wsxXEs9hYyNgoeAyrgCBYBW0iWCTZaF41O%2Ft5DMN4ODCzM9AAZpJuWRkfNyEwAFZ5Ad8xRQcI0uf4LwmwBOppHf8sMbMQiL5al7ysVyA5AFPHpAtJa8%2FMXmnjLqltZjtgCExKLP0JNGsZHxHl2UpKfKrRK3sneSTAsaokBvZVJQHQypNcS0rmkk6ZEkkjoA9sgEeBpPsp3t%2BJJ3seIcciAAAAAElFTkSuQmCC) no-repeat;
+  background-position: 50% 45%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003102}}
+.b-feedback-popup .topic-row .add-vote.disabled,
+.b-feedback .topic-row .add-vote.disabled {
+  cursor: default;
+  background-position: 0 -58px !important;
+  border-color: #C4C4C4!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003107}}
+.b-feedback-popup .topic-row .add-vote.disabled > .how-vote,
+.b-feedback .topic-row .add-vote.disabled > .how-vote {
+  color: #AAA;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003110}}
+.b-feedback-popup .topic-row .add-vote.disabled > .how-like,
+.b-feedback .topic-row .add-vote.disabled > .how-like {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAOCAYAAADJ7fe0AAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A%2FwD%2FoL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wFHAs1AjttXdgAAAC7SURBVCjPpZIxCsJAEEVfgggBRRFsrSKCnY3FR9ADeI4cwV6wsxXEs9hYyNgoeAyrgCBYBW0iWCTZaF41O%2Ft5DMN4ODCzM9AAZpJuWRkfNyEwAFZ5Ad8xRQcI0uf4LwmwBOppHf8sMbMQiL5al7ysVyA5AFPHpAtJa8%2FMXmnjLqltZjtgCExKLP0JNGsZHxHl2UpKfKrRK3sneSTAsaokBvZVJQHQypNcS0rmkk6ZEkkjoA9sgEeBpPsp3t%2BJJ3seIcciAAAAAElFTkSuQmCC) no-repeat;
+  background-position: 50% 45%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003114}}
+.b-feedback-popup .topic-row .add-vote.disabled > .txt,
+.b-feedback .topic-row .add-vote.disabled > .txt {
+  color: #AAA;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003118}}
+.b-feedback-popup .topic-row .add-vote > .txt,
+.b-feedback .topic-row .add-vote > .txt {
+  color: black;
+  cursor: inherit;
+  float: left;
+  line-height: 21px;
+  margin-top: 4px;
+  padding: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003133}}
+.b-feedback-popup .topic-row .add-vote:hover,
+.b-feedback .topic-row .add-vote:hover {
+  background-position: 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003136}}
+.b-feedback-popup .topic-row .add-vote:active,
+.b-feedback .topic-row .add-vote:active {
+  background-position: 0 -40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003139}}
+.b-feedback-popup .topic-row .add-vote > .how-vote,
+.b-feedback .topic-row .add-vote > .how-vote {
+  font-size: 14px;
+  margin-top: 1px;
+  line-height: 19px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003144}}
+.b-feedback-popup .topic-row .add-vote > .how-like,
+.b-feedback .topic-row .add-vote > .how-like {
+  margin-right: 1px;
+  background-position: 50% 45%;
+  height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003149}}
+.b-feedback-popup .topic-row .add-vote > .txt,
+.b-feedback .topic-row .add-vote > .txt {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003153}}
+.b-feedback-popup .topic-row .add-vote.disabled,
+.b-feedback .topic-row .add-vote.disabled {
+  background-position: 0 -40px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000382}}
+.b-feedback-popup .topic-row:hover,
+.b-feedback .topic-row:hover {
+  background: whiteSmoke;
+  border-bottom: 1px dotted #CBCBCB;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback_topic-row\.css\.scss}line{font-family:\0000386}}
+.b-feedback-popup .topic-row:hover .add-vote,
+.b-feedback .topic-row:hover .add-vote {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}

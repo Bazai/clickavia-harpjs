@@ -1,0 +1,199 @@
+@charset "US-ASCII";
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/*
+
+  project specific SASS mixins
+
+*/
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/* центрирование элемента */
+/* кнопка навигации слайдера */
+/* круглая кнопка, используется в оформлении заказа */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\000036}}
+.b-chat {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\000039}}
+.b-chat > #messages {
+  width: 640px;
+  display: block;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\0000314}}
+.b-chat > #messages .b-message {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\0000372}}
+.b-chat > #messages .b-message:before, .b-chat > #messages .b-message:after {
+  content: "";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\0000377}}
+.b-chat > #messages .b-message:after {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\0000317}}
+.b-chat > #messages .b-message > .from {
+  font-weight: bold;
+  float: left;
+  margin-right: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\0000322}}
+.b-chat > #messages .b-message > .text {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\0000327}}
+.b-chat > .subheader {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: normal;
+  margin: 40px 0 15px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\0000333}}
+.b-chat > .notice {
+  text-align: center;
+  margin-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\0000337}}
+.b-chat .new-message {
+  width: 640px;
+  display: block;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\0000342}}
+.b-chat .new-message > .text {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: white;
+  border: 1px solid #cccccc;
+  color: #4a4a4a;
+  line-height: 16px;
+  padding: 4px 5px!important;
+  width: 208px;
+  height: 70px;
+  margin-bottom: 20px;
+  width: 630px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\00003218}}
+.b-chat .new-message > .text::-webkit-input-placeholder {
+  color: #878787 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\00003219}}
+.b-chat .new-message > .text:-moz-placeholder {
+  color: #878787 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\00003220}}
+.b-chat .new-message > .text::placeholder {
+  color: #878787 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\00003221}}
+.b-chat .new-message > .text:-ms-input-placeholder {
+  color: #878787 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\0000348}}
+.b-chat .new-message > .post {
+  float: right;
+  right: 50%;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\00003120}}
+.b-chat .new-message > .post > div {
+  float: right;
+  right: -50%;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\0000352}}
+.b-chat > .clear {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/wizard\/b-wizard_chat\.css\.scss}line{font-family:\0000355}}
+.b-chat .not-immediate {
+  margin-bottom: 15px;
+}

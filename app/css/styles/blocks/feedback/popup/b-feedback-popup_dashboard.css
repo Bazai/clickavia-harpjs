@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/*
+
+  project specific SASS mixins
+
+*/
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/* центрирование элемента */
+/* кнопка навигации слайдера */
+/* круглая кнопка, используется в оформлении заказа */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\000034}}
+.b-feedback-popup .dashboard {
+  border-top: 1px solid white;
+  padding: 13px 13px 20px;
+  background: #ECECEC;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\000039}}
+.b-feedback-popup .dashboard > .new-topic-container, .b-feedback-popup .dashboard > .please-login {
+  margin-bottom: 11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\0000311}}
+.b-feedback-popup .dashboard > .new-topic-container a, .b-feedback-popup .dashboard > .please-login a {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\0000317}}
+.b-feedback-popup .dashboard > .new-topic-container input, .b-feedback-popup .dashboard > .please-login {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #CFCFCF;
+  color: #B3B3B3;
+  font-size: 14px;
+  padding: 5px;
+  width: 98%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\00003218}}
+.b-feedback-popup .dashboard > .new-topic-container input::-webkit-input-placeholder, .b-feedback-popup .dashboard > .please-login::-webkit-input-placeholder {
+  color: #878787 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\00003219}}
+.b-feedback-popup .dashboard > .new-topic-container input:-moz-placeholder, .b-feedback-popup .dashboard > .please-login:-moz-placeholder {
+  color: #878787 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\00003220}}
+.b-feedback-popup .dashboard > .new-topic-container input::placeholder, .b-feedback-popup .dashboard > .please-login::placeholder {
+  color: #878787 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\00003221}}
+.b-feedback-popup .dashboard > .new-topic-container input:-ms-input-placeholder, .b-feedback-popup .dashboard > .please-login:-ms-input-placeholder {
+  color: #878787 !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\0000328}}
+.b-feedback-popup .dashboard > .menu-container {
+  z-index: 2200;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\0000331}}
+.b-feedback-popup .dashboard > .menu-container .topic-section {
+  font: normal 12px/16px Arial;
+  float: left;
+  padding: 8px 10px 5px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003159}}
+.b-feedback-popup .dashboard > .menu-container .topic-section.section-info > .icon {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAwhJREFUeNqMk8lrFEEUxr%2Bq6mWmZ8aeZIyRTIIJQUwwAZUoejAuQYMHUZDgzT%2FADcGTJ8GLBwUFEUHEiwcRFFeIUdy9iRuJUXBLMJOMTpKZzmR6ZqqXsrqDiTet5jXV9er79XuvXpEtNxkIBYgCMCZACMH97S7%2BNXruKhC%2B1Akh0HNHCQEKA1zfSwtgj65q3SrT0pAfjs8z3OHPQXCDEZbxPSCwAKD8IRJp3PW2m4Z5oKNxTVdTqjkZUY2I5KPslCpjUyMbPmTe9lhl6zwDexBoHu9yFwBSvK2hJn1iS%2FuOVTqN6pZVxKxvBQFAocxoTq0w0smW3qef%2But%2FWVlBwR4GuhDgel7ajJmHNi7fttpzhTY2NY7DrZcQ102ZkosSL%2BDWxBnMaiP6%2Bpatqx99uHdotlIcltIMDQAyn74VSzvXelxov6azEshx%2F%2FtlXB0%2BhVc%2F%2B5GM1KGJrcRI9huEA605tXyt74m%2B%2BQgUqnXXRuvMyXwu%2FKM8CjzKXcFkcQIbcnvRkF%2BH4ewQRvMjsLIlRBMRkxKlW0rPhgAi1EYimC4rDcdzUJy1MFMuoCu2CztTR%2FCm0I9Xpdsw9Di4qIJx6L5LG%2BcjkHnDdV1UXBulygyqsGFGkuip2webTGOgfA4iZsOgsbmKUyI1c9MQUK06Gas63Qm1EtGkU6dxEJ%2FgeuE4fPloi6RRUx48kb3CULRtzrmbCVnByy47L8fzmUKiNoaoqUNNAFE9hv1t53Gw7YIMPTG3tkiDYWrIl2YsXvVfhoA1F5mMh1z7%2FD3zruJwJ7UkHm7Soio8m4UWzIO1mjoDJafsjP6YfCOkZq5%2BQavJ0XaW9NbWJE5u3NTWUd%2BQUF1HwBr1Qp%2B5jEFRCSbGLefFk09DhXzpWMSgA5T%2B3couHRj9WFRzY%2B%2BPdnY1dLS2L04kl0W0wJebsvnXj5PFwdfjg1WfnzZTUqzLy0f%2FikAxCIQHRV%2BPdnUldmsq2axGWX3gc8reT87FM%2FcLrsfTZDhaI8VKeBgLgP8Zic2EChs%2B08NeC2%2FgbwEGAP0cU3G1OW01AAAAAElFTkSuQmCC) no-repeat;
+  border-color: #D5F8A7!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003163}}
+.b-feedback-popup .dashboard > .menu-container .topic-section.section-issues > .icon {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A%2FwD%2FoL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wIGA0aMwvQStsAAAGCSURBVDjLpZOxahtBEIa%2FvT2dfCOfg3SSBbJNXAkiFEgaVWpSX6%2FCD2CQCQTcuvJLJM%2BQLUXKdAGDXyNKYwIBE7PHWdrbNMHYkn3G9sA2%2F%2Bz888%2FPjPLe85IIqpJGZMeIjJ9FYETG8cbGr3aa%2FjAiB89RMH07HDIcDACmTyIwIoftVutgr9sl3dpir9cbG5GT%2B%2F6qVRONiFZKLT%2BMRrxKEgDyouD72RlL515PrP35mILT%2FW6XJAypzWbUZjPqZUl%2FdxfguHIEIzKoaX3S397GWXuDO2vZbzZp1OufjEhWpWDaT1N0UVDeIiithTznTaezZmhwq3smYfixF0U4a9cUOGtJlaITx5kROVwz0Yh8e58kWTuKKjfv73LJ%2BeUlHsKJtS74X3zc1jprOUeZ5zevOZ%2FTnM%2FvYI3Fgp0wBDgFUF%2FjOAqgGAUB8Uq3ztUVAL83N%2B%2FgC%2BC8LFlAGgLvGt5Tv76mXCG4eGAcDSRa80epkfLeY0Q%2BV63rA%2FFlYu2Reuk5%2FwMdP5B48pUMlAAAAABJRU5ErkJggg%3D%3D) no-repeat;
+  border-color: #FDDBFF!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003167}}
+.b-feedback-popup .dashboard > .menu-container .topic-section.section-ideas > .icon {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A%2FwD%2FoL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wIGA0aEKm3O6kAAAHzSURBVDjLfZLPalNREIe%2FufemGmmwuGgIShYVJOJCIUtpoL6Aq6wk4i7QFxDahav2CbpwowitG1vQF2iaRLJwISpNskpiTCg3tJabkKK5t0nHRUibmD8%2FGBjOzHxz5swRVQWguG1gWYplyRNFX4iSQECVbRF51%2B1p6tyDB8%2F7%2BQMZV64isGGauh9cJLF0F5aWIBgkYVm6L8iGMK4hgMQNn7V25%2F4y848%2BQVQhqsw%2F%2FMjtyDKmz1xTiI8RVBVV5cdbyTjZkKpb0TG5FW1%2BDun3N2QG%2BQO7vIHnamwhFAHtTWjS42YwgnduxKaO8NcFroWhmgBn7yrD2UOqCbgexnUvpr%2BB55E9ts%2FANKC2Cl%2Blb%2FVVMAyOG3%2FwXMn%2BD7AGzrnHVunbl9itp6tYN35BxwYB5kJ0zTCl1Gs8V7emAoDdU%2Ftos5Ivrt17%2FAxUQfqLq%2BTec2rXN30%2BdmesERRdPzzYSZ8c1WEuCL5FTo7q5FM7aZB1Zv2DszZ4HdAemd%2FVIhgLYC5w%2FDNP94JMp6O02%2BOAyxE0%2BgFVRUTSeYdX3mGbWq1GLucHXqYHefGpgH4xQLrZbBIOhwFoNBqUy%2BX0UHwyoFwujwQKhQK2bVMqlRCRicUjgFarNRLw%2B%2F0EAgFEhGndRwCO4wyfrySTyQOAaDS6wgz9A%2FLs9DynlpleAAAAAElFTkSuQmCC) no-repeat;
+  border-color: #FFE7B6!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/b-feedback\.css\.scss}line{font-family:\00003171}}
+.b-feedback-popup .dashboard > .menu-container .topic-section.section-thanks > .icon {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAh5JREFUeNqkkztvE0EUhe%2BdGc%2Bu8fqV2EmMiKEjMRIttKniFECNqBAhpIIfwK9AQoIiSohE44CwREMFFaJGIcaUgOMQ49hev9a7Xu8MsyYoGBGwlCmv5nzn3NEZlFLCSQ6BEx6Wzb%2F6yfGToHc4%2FnsqPy0h%2FDLX4tddt%2F3Oc60cG99LAALPxibPryfPzKbaZuNW5eu2S8YVg9SWohPzG4nT51IsQGEiOhkKMGOBHUUWx4ql4NlwbG4zNp1O%2BksyG6BaLn23%2B2aOHEa7imjcU6D46P4KKrRsyJjfCCfPJj2JgA5A5UupXqkWbyM4bxnK4I1g5OJjxkNGp%2FZpwZO7q4iwPwQJvsi1uc1gPD3lKWumeNVKqW62i8uEOi8BKDCExBU9lDA8lUWPXLjWM4ku8fNN5ZyhNPNEi6anXCUkfYD6QbnRsorLlNn5Xw1gQla3rOr%2BEovPRDzKgYUyi%2F0WyQMaKRqZnekrZ64uNhtl03YKK7%2BLhwBg3ReW%2FeEUP8BHGJ42XAwA6plLUu3hCvU6A4Buba%2Fpeh9XKO89B0lHi%2BQPiGY97Ts7nDTJQ6EngwOhLqFyVu52c68pQDlrvWcgyDFVHkI662KwfVd0a5Z6bF8PbvNbS8jCHapZWyDJf%2F6CD9E7a%2Bjt3MeeOZCdikmwsEr1Xu7P2KMrjJSdAtXbD8B5X8dAf5dy%2B42U%2Fy7rIQCPJqjCBqzXSDxznM%2F6Q4ABAHku4s6AxMKsAAAAAElFTkSuQmCC) no-repeat;
+  border-color: #D1F3FF!important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\0000340}}
+.b-feedback-popup .dashboard > .menu-container .topic-section:hover .name {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\0000344}}
+.b-feedback-popup .dashboard > .menu-container .topic-section.active {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  background: white;
+  font-weight: bold;
+  border: 1px solid #CFCFCF;
+  border-bottom: none;
+  padding-bottom: 6px;
+  padding-top: 7px;
+  cursor: default;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\0000355}}
+.b-feedback-popup .dashboard > .menu-container .topic-section .icon {
+  cursor: inherit;
+  display: inline-block;
+  height: 16px;
+  margin-right: 5px;
+  margin-top: -3px;
+  vertical-align: middle;
+  width: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\0000364}}
+.b-feedback-popup .dashboard > .menu-container .topic-section .name {
+  cursor: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\0000368}}
+.b-feedback-popup .dashboard > .menu-container .section-null .icon {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/feedback\/popup\/b-feedback-popup_dashboard\.css\.scss}line{font-family:\0000373}}
+.b-feedback-popup .dashboard > .section-container {
+  -webkit-border-radius: 0 5px 5px 5px;
+  -moz-border-radius: 0 5px 5px 5px;
+  border-radius: 0 5px 5px 5px;
+  background: white;
+  border: 1px solid #CFCFCF;
+  height: 392px;
+  overflow: auto;
+  position: relative;
+  clear: left;
+  top: -1px;
+  z-index: 2100;
+}

@@ -1,0 +1,265 @@
+@charset "US-ASCII";
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/*
+
+  project specific SASS mixins
+
+*/
+/*
+  ==========================================================================================================
+  File stores projet styles varialbles.
+  Must be included in each your block/layout file to ensure consistance.
+  You may latter ovverride variables if you need.
+  Keep here only variables for WHOLE PROJECT - declare scoped variables inside files they assign to.
+
+  NOTES:
+  1. feel free to add your own variables;
+  1. try to use _underscore style for naming - this help you in text editors. using '-' also will do.
+     but not the double undescore;
+  2. using color for naming may be a bad idea - orange tomorrow can become pupure etc;
+     use shortcuts instead, if you really need to keep it:
+     $super_green: $primary_color;
+  3. comment, comment, comment;
+  ==========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  COLORS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  BACKGROUNDS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  FONTS
+  ===========================================================================================================
+*/
+/*
+  ===========================================================================================================
+  GRID
+  ===========================================================================================================
+*/
+/*$page-width: 56*$bw; //896px*/
+/*
+  ===========================================================================================================
+  Z_INDEXes
+   - you're don't want to mess with it 
+  ===========================================================================================================
+*/
+/* центрирование элемента */
+/* кнопка навигации слайдера */
+/* круглая кнопка, используется в оформлении заказа */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\000038}}
+.b-profile .touroperator-requests .b-loading {
+  text-align: left;
+  margin: 20px 0 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000312}}
+.b-profile .touroperator-requests .requests-filter {
+  margin-bottom: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000315}}
+.b-profile .touroperator-requests .requests-filter .search-conditions {
+  text-align: left;
+  padding: 18px 0 2px 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000319}}
+.b-profile .touroperator-requests .requests-filter .search-filters {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000322}}
+.b-profile .touroperator-requests .requests-filter .states, .b-profile .touroperator-requests .requests-filter .directions {
+  padding-left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000325}}
+.b-profile .touroperator-requests .requests-filter .states a, .b-profile .touroperator-requests .requests-filter .directions a {
+  cursor: pointer;
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000329}}
+.b-profile .touroperator-requests .requests-filter .states a.selected, .b-profile .touroperator-requests .requests-filter .directions a.selected {
+  color: #878787;
+  cursor: default;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000334}}
+.b-profile .touroperator-requests .requests-filter .states a.highlighted, .b-profile .touroperator-requests .requests-filter .directions a.highlighted {
+  color: #ff8267;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000340}}
+.b-profile .touroperator-requests .requests-filter .directions a {
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000346}}
+.b-profile .touroperator-requests .b-profile-table td {
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000350}}
+.b-profile .touroperator-requests .b-profile-table .directions td {
+  border-right: none;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 25px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000358}}
+.b-profile .touroperator-requests .b-profile-table .highlighted {
+  background: #FFF68F;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000362}}
+.b-profile .touroperator-requests .action {
+  color: #76b718;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/global\/mixins\.css\.scss}line{font-family:\0000342}}
+.b-profile .touroperator-requests .action:hover {
+  color: #67a015;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000369}}
+.b-profile .touroperator-requests .decline {
+  color: #cc0033;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000371}}
+.b-profile .touroperator-requests .decline:hover {
+  color: #990026;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000375}}
+.b-profile .touroperator-requests .cancel {
+  color: red;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000377}}
+.b-profile .touroperator-requests .cancel:hover {
+  color: #cc0000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000381}}
+.b-profile .touroperator-requests .b-dialog {
+  left: 187px;
+  position: absolute;
+  margin-top: -100px;
+  width: 418px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000387}}
+.b-profile .touroperator-requests .passports {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000390}}
+.b-profile .touroperator-requests .passports .details {
+  display: none;
+  position: initial;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000394}}
+.b-profile .touroperator-requests .passports .details textarea {
+  height: 108px;
+  width: 386px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\0000398}}
+.b-profile .touroperator-requests .passports .details .block {
+  margin: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003101}}
+.b-profile .touroperator-requests .passports .details .block:last-child {
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003107}}
+.b-profile .touroperator-requests .action-dialog {
+  display: none;
+  position: initial;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003111}}
+.b-profile .touroperator-requests .action-dialog .g-button-new {
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  width: 220px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003117}}
+.b-profile .touroperator-requests .action-dialog .hide {
+  margin-left: 10px;
+  width: 165px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003125}}
+.b-profile .touroperator-requests .confirm-dialog .section, .b-profile .touroperator-requests .decline-dialog .section {
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003127}}
+.b-profile .touroperator-requests .confirm-dialog .section p, .b-profile .touroperator-requests .decline-dialog .section p {
+  margin-bottom: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003130}}
+.b-profile .touroperator-requests .confirm-dialog .section .order, .b-profile .touroperator-requests .decline-dialog .section .order {
+  margin-top: -18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003134}}
+.b-profile .touroperator-requests .confirm-dialog .b-info-block, .b-profile .touroperator-requests .decline-dialog .b-info-block {
+  float: none;
+  width: 382px;
+  margin-top: 5px;
+  margin-bottom: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003140}}
+.b-profile .touroperator-requests .confirm-dialog .b-info-block textarea, .b-profile .touroperator-requests .decline-dialog .b-info-block textarea {
+  height: 80px;
+  margin-bottom: -6px;
+  width: 367px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003145}}
+.b-profile .touroperator-requests .confirm-dialog .b-info-block input, .b-profile .touroperator-requests .decline-dialog .b-info-block input {
+  width: 367px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003148}}
+.b-profile .touroperator-requests .confirm-dialog .b-info-block .chzn-single, .b-profile .touroperator-requests .decline-dialog .b-info-block .chzn-single {
+  margin-left: 0;
+  text-align: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/voviarka\/Sites\/ClickaviaRails\/app\/assets\/stylesheets\/blocks\/profile\/b-profile-touroperator_requests\.css\.scss}line{font-family:\00003152}}
+.b-profile .touroperator-requests .confirm-dialog .b-info-block .chzn-drop, .b-profile .touroperator-requests .decline-dialog .b-info-block .chzn-drop {
+  width: 375px!important;
+}
