@@ -1,0 +1,963 @@
+@import '_nib'
+@import 'global/_reset.styl'
+
+h1, h2, h3
+  font-family: "PFDinTextCondProThin",Tahoma,Arial,Verdana,sans-serif
+  font-style: normal
+  font-weight: normal
+
+
+.g-button-new
+  background-color: #4A4A4A
+  border: 1px solid #3D3D3D
+  border-radius: 3px 3px 3px 3px
+  color: #FFFFFF
+  cursor: pointer
+  font-size: 14px
+  font-weight: bold
+  height: 41px
+  line-height: 41px
+  text-align: center
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8)
+  transition-duration: 0.25s
+  transition-property: color, background-color, border-color
+
+
+.l-page__center:before,
+.l-page__center:after
+  content: ""
+  display: table
+  clear: both
+
+.l-page__center
+  margin: 0 auto
+  padding: 0 15px
+  width: 928px
+  .inner
+    background: url("/app/images/layouts/grid_body.png") repeat-y scroll 0 0 transparent
+    margin-left: -17px
+    padding: 0 17px
+    width: 928px
+
+button, input, select, textarea
+  color: #333333
+  font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+  font-size: 14px
+  outline: medium none
+
+body
+  cursor: default
+  line-height: 17px
+  background: url("/app/images/global/gray_bg.gif") repeat scroll 0 0 #F2F2F2
+  font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+  font-size: 14px
+  min-height: 100%
+  color: #333333
+  position: relative
+  min-width: 958px
+  min-height: 2000px
+  a
+    color: #76B718
+    text-decoration: none
+  .l-page
+    /* padding-bottom: 483px */
+    header
+      background: url('/app/images/layouts/header/background.gif') repeat-x scroll 0 0 transparent
+      z-index: 1010
+      height: 44px
+      .container
+        background: url('/app/images/layouts/header/grid.png') repeat-y scroll 0 0 transparent
+        height: 33px
+        margin-left: -20px
+        overflow: hidden
+        padding-left: 20px
+        padding-right: 20px
+        padding-top: 11px
+        transition-duration: 200ms
+        transition-property: height
+        width: 928px
+        position: relative
+        .logo
+          display: inline-block
+          margin-right: 15px
+          a.inline-logo
+            background-image: url("/app/images/layouts/logo-inline-sprite.png")
+            background-repeat: no-repeat
+            display: inline-block
+            height: 24px
+            width: 114px
+            &:hover
+              background-position: 0px -25px
+        .social-links
+          display: inline-block
+          a
+            background-image: url("/app/images/layouts/social-icons-sprite.png")
+            background-repeat: no-repeat
+            display: inline-block
+            height: 25px
+            width: 24px
+            margin-left: 4px
+          a.facebook
+            background-position: 0 0
+            &:hover
+              background-position: 0px -25px
+          a.twitter
+            background-position: -24px 0
+            &:hover
+              background-position: -24px -25px
+          a.vkontakte
+            background-position: -48px 0px
+            &:hover
+              background-position: -48px -25px
+        .user-control
+          position: absolute
+          right: 20px
+          top: 5px
+          #user_auth
+            margin-top: 7px
+            & > *
+              display: inline-block
+              font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+              font-size: 15px
+              line-height: 24px
+              text-shadow: 0 -1px 0 #0E0E0E
+              white-space: nowrap
+            & > a
+              color: #E6E6E6
+              cursor: pointer
+              &:hover
+                color: #ffffff
+                text-decoration: none
+            span
+              color: #878787
+    .l-page__header-bottom
+      background: url("/app/images/layouts/header/background_bottom.png") repeat-x scroll 0 0 transparent
+      height: 12px
+      margin-bottom: -7px
+      z-index: 1010
+      .grid-bottom
+        background: url("/app/images/layouts/header/grid_bottom.png") repeat-y scroll 0 0 transparent
+        height: 6px
+        margin-left: -20px
+        width: 968px
+    .l-page__header-top-offset
+      .inner
+        height: 34px
+    .l-page__top-line
+      background: url("/app/images/global/gray_bg.gif") repeat scroll 0 0 #F2F2F2
+      font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+      font-size: 14px
+      overflow: hidden
+      .l-page__top-line__shadow
+        background: url("/app/images/layouts/top-line__shadow.png") left bottom repeat-x
+        .l-page__center
+          .left-bar
+            float: left
+            font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+            width: 272px
+            .logo
+              display: inline-block
+              margin-top: 54px
+              background: url('/app/images/global/logo.png') no-repeat transparent
+              width: 135px
+              height: 120px
+            p.about
+              font-size: 14px
+              line-height: 20px
+              margin: 41px 0 0
+              text-shadow: 0 1px 0 white
+            .short-menu
+              display: inline-block
+              font-size: 18px
+              line-height: 38px
+              margin-top: 37px
+              text-align: left
+            .short-menu__item
+              background: url("/app/images/layouts/short-menu__items.png") right -1px no-repeat
+              color: #67A015
+              display: inline-block
+              font-family: Georgia,"Nimbus Roman No9 L",serif
+              font-size: 16px
+              font-style: italic
+              height: 40px
+              margin-top: 14px
+              padding-right: 48px
+              text-decoration: underline
+              text-shadow: 0 1px 0 white
+              width: 173px
+              &.how
+                &:hover
+                  background-position: right -121px
+              &.fin
+                background-position: right -81px
+                cursor: pointer
+                &:hover
+                  background-position: right -201px
+          .right-bar
+            margin-left: 272px
+            padding-left: 48px
+            .pay-ways:after
+              content: ""
+              height: 0
+              width: 99%
+              display: inline-block
+              text-align: left
+              font-size: 2px
+              line-height: 0
+              text-align: justify
+              width: 592px
+            .pay-ways
+              .item
+                background: url('/app/images/layouts/pay-ways.gif') 0 top no-repeat
+                display: block
+                float: left
+                height: 39px
+                margin-left: 8px
+                vertical-align: middle
+              .item.caption
+                background: none repeat scroll 0 0 transparent !important
+                font-size: 14px
+                line-height: 54px
+              .item.evroset
+                background-position: 0 top
+                width: 120px
+              .item.svyaznoy
+                background-position: -120px top
+                width: 110px
+              .item.mastercard
+                background-position: -230px top
+                width: 70px
+              .item.visa
+                background-position: -300px top
+                width: 80px
+
+.b-main-picker
+  min-height: 425px
+  width: 608px
+  z-index: 550
+  div
+    position: relative
+  .month
+    width: 304px
+    thead
+      text-align: left
+      th
+        padding-bottom: 14px
+        padding-left: 12px
+    td
+      cursor: default
+      padding-bottom: 6px
+      transition-duration: 0.5s
+      transition-property: opacity
+
+      .wrapper
+        color: #B3DB79
+        cursor: default
+        display: block
+        padding-left: 12px
+        position: relative
+        text-decoration: none !important
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3)
+        transition-duration: 0.5s
+        transition-property: color, text-shadow
+    .point-wrapper .point
+      bottom: -4px
+      display: none
+      height: 25px
+      left: 6px
+      line-height: 25px
+      padding-right: 1px
+      position: absolute
+      text-align: center
+      width: 25px
+    td.right
+      display: table-cell
+      float: none
+      .wrapper
+        border-bottom-right-radius: 8px
+        border-top-right-radius: 8px
+
+    td.left
+      display: table-cell
+      float: none
+      .wrapper
+        border-bottom-left-radius: 8px
+        border-top-left-radius: 8px
+
+
+    table
+      table-layout: fixed
+      border-collapse: collapse
+      width: 100%
+    .caption
+      background: none repeat scroll 0 0 #333333
+      font-size: 18px
+      line-height: 54px
+      text-align: center
+      text-shadow: 0 -1px #232323
+    .table-wrapper
+      padding: 20px
+      background: url('/app/images/blocks/b-main-picker/month-splitter.png') no-repeat scroll right top transparent
+  .points-hint
+    color: #FFFFFF
+    line-height: 18px
+    text-align: center
+  .shadow
+    margin: 0 -8px -27px !important
+    padding: 0 8px 27px !important
+    background: url("/app/images/new/blocks/b-main-picker/shadow.png")  center bottom no-repeat !important
+  .points-0
+    .points-hint
+      color: #333333
+      text-shadow: none
+    .container .fields-line > .small-log
+      background-position: center 0
+  .container
+    background: none repeat scroll 0 0 #76B718
+    border-radius: 10px 10px 10px 10px
+    color: #FFFFFF
+    margin-top: 16px
+    text-shadow: 0 -1px #507C10
+    z-index: 1050
+    .clear-dates
+      bottom: 10px
+      cursor: pointer
+      display: none
+      font-size: 13px
+      position: absolute
+      right: 25px
+      span
+        cursor: pointer
+        text-decoration: underline
+        vertical-align: middle
+      .button:after
+        content: ""
+        display: inline-block
+        font-family: FontAwesome
+        font-size: 11px
+        font-style: normal
+        font-weight: normal
+        padding: 0 2px 0 1px
+        text-decoration: none
+    .progress-bar-title
+      white-space: nowrap
+    .month-slider.g-slider
+      height: 252px
+      line-height: 17px
+      margin-top: 18px
+      .slide-display
+        margin: 0
+      .left-nav-placeholder, .right-nav-placeholder
+        background: none repeat scroll 0 0 #333333
+        height: 54px
+        position: absolute
+        top: 0
+        width: 65px
+      .left-nav-placeholder
+        left: 0
+      .right-nav-placeholder
+        right: 0
+      .nav.enabled
+        span.inner
+          cursor: pointer
+      .nav.enabled:hover
+        background-color: #80C20A
+      .nav
+        background: none repeat scroll 0 0 #76B718
+        border-radius: 18px 18px 18px 18px
+        box-shadow: 0 -1px #232323
+        height: 36px
+        opacity: 0.5
+        top: 9px
+        width: 36px
+      .nav.next
+        right: 16px
+        span.inner
+          background-position: center bottom
+      .nav.prev
+        left: 16px
+        span.inner
+          background-position: center top
+    .fields-line
+      height: 72px
+      position: relative
+      .small-logo
+        height: 50px
+        margin: 0 auto
+        top: 11px
+        width: 50px
+        background: url('/app/images/blocks/b-main-picker/logo-32.png')  no-repeat scroll center 0 / 50px transparent
+
+      .g-text-field
+        background-color: #598A12
+        border-radius: 5px 5px 5px 5px
+        box-shadow: 0 1px #476F0F inset, 0 -1px #85CE1B inset
+        height: 36px
+        position: absolute
+        top: 18px
+        width: 240px
+        .wrapper
+          padding: 8px
+          position: relative
+          input
+            background: none repeat scroll 0 0 transparent
+            border: medium none
+            color: #FFFFFF
+            font-size: 16px
+            height: 20px
+            position: relative
+            line-height: 19px
+            padding: 0
+            width: 100%
+          div
+            height: 16px
+            position: absolute
+            right: 6px
+            top: 9px
+            width: 16px
+      .g-text-field.from
+        left: 16px
+      .g-text-field.to
+        right: 16px
+
+.g-button-new
+  margin: 27px auto 30px
+  width: 154px
+.g-button-new.disabled, .g-button-new.busy
+  border: 1px solid #CACACA
+  color: #FFFFFF
+  cursor: default
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4)
+.g-button-new.disabled
+  background: none repeat scroll 0 0 lightgrey
+
+
+
+
+.g-slider
+  min-height: 24px
+  padding: 0 !important
+  position: relative
+  .slide-display
+    height: 100%
+    margin: 0 40px
+    overflow: hidden
+    position: relative
+    .slide-line
+      position: absolute
+      width: 10000px
+      .item
+        display: block
+        float: left
+    .dates-checker
+      top: 20px
+  .nav
+    background: none repeat scroll 0 0 #76B718
+    border-radius: 18px 18px 18px 18px
+    box-shadow: 0 -1px #232323
+    height: 36px
+    opacity: 0.5
+    top: 9px
+    width: 36px
+
+    display: block
+    height: 100%
+    position: absolute
+    top: 0
+    width: 40px
+    span.inner
+      background: url("/app/images/global/navigation-button.png") no-repeat scroll center top transparent
+      cursor: default
+      display: block
+      height: 100%
+      width: 100%
+  .nav.enabled
+    opacity: 1 !important
+
+.b-progress-bar
+  display: none
+  left: 50%
+  margin-left: -100px
+  position: absolute
+  width: 200px
+  z-index: 100
+  p.progress-bar-title
+    color: #FFFFFF
+    margin-bottom: 0
+    text-align: center
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25)
+    transition-duration: 0.5s
+    transition-property: text-shadow
+  div.progress-bar
+    border-radius: 2px 2px 2px 2px
+    box-shadow: 0 1px #212121 inset, 0 -1px #949494 inset
+    height: 4px
+    min-height: 4px
+    width: 100%
+    span
+      background-color: #878787
+      border-radius: 1px 0 0 1px
+      box-shadow: -3px 0 1px white inset
+      display: block
+      height: 2px
+      position: relative
+      top: 1px
+      width: 0
+
+
+/*SPECIALS*/
+.l-page__specials
+  background: url('/app/images/global/dark-grey-noise.png')  repeat scroll 0 0 transparent
+  color: #C6C6C6
+  font-family: "Myriad Pro", Helvetica,Arial,Tahoma,sans-serif
+  min-height: 502px
+  overflow: hidden
+  a
+    color: #C6C6C6
+  .l-page__center
+    background: url("/app/images/layouts/header/grid.png") repeat-y scroll 0 0 transparent
+    min-height: 502px
+    overflow: hidden
+    padding: 0 18px
+    width: 932px
+    .title
+      font-size: 21px
+      margin-top: 16px
+      clearfix()
+      .cities
+        display: block
+        .city-name
+          border-left: 1px solid rgba(0, 0, 0, 0.3)
+          border-right: 1px solid rgba(255, 255, 255, 0.1)
+          color: #808080
+          cursor: pointer
+          display: block
+          float: left
+          height: 32px
+          line-height: 36px
+          margin: 0
+          padding: 4.5px 8px
+          transition-duration: 0.3s
+          transition-property: color
+          vertical-align: middle
+        .city-name.first
+          border-left: medium none
+        .city-name.last
+          border-right: medium none
+        .city-name.active
+          color: #FFFFFF
+          cursor: default
+          border: 0 solid
+      h3
+        font-size: 21px
+        height: 40px
+        line-height: 40px
+        vertical-align: middle
+        .addition
+          display: inline
+      .cities
+        float: left
+        white-space: nowrap
+    .countries-menu
+      float: left
+      font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+      font-size: 14px
+      line-height: 42px
+      margin: 10px -25px 0 0
+      white-space: nowrap
+      .item
+        border-radius: 3px 3px 3px 3px
+        display: inline-block !important
+        float: none !important
+        margin-left: 1px
+        max-height: 42px
+        padding: 0 15px
+        position: relative
+      .item:hover
+        color: #FFFFFF
+        background-color: #333333
+      .item.active,.item:active
+        background: none repeat scroll 0 0 #76B718
+        color: #FFFFFF
+      .item.active
+        cursor: default
+      .item:first-child
+        margin-left: 0
+    .country
+      clear: left
+      overflow: hidden
+      padding: 30px 0 0
+      .left
+        float: left
+        padding-bottom: 20px
+        width: 304px
+        span.thumb-wrapper
+          border: 7px solid #292929
+          border-radius: 152px 152px 152px 152px
+          display: inline-block
+          position: relative
+          .shutter
+            background: url("/app/images/blocks/b-specials/shutter-bg.png") repeat scroll 0 0 transparent
+            height: 304px
+            left: -7px
+            overflow: hidden
+            position: absolute
+            top: -7px
+            width: 304px
+            z-index: 191
+          .shutter-container
+            height: 304px
+            left: -7px
+            overflow: hidden
+            position: absolute
+            top: -7px
+            width: 304px
+            z-index: 190
+            .shutter-wing
+              background: url("/app/images/blocks/b-specials/shutter-small.png") repeat scroll 0 0 transparent
+              height: 500px
+              position: absolute
+              transition-duration: 0.6s
+              transition-property: all
+              width: 416px
+            .shutter-wing.wing-1
+              background: url("/app/images/assets/blocks/b-specials/shutter-small-double.png") repeat scroll 0 0 transparent
+
+            .shutter-wing.wing-1.open
+              left: -158px
+              top: 151px
+              transform: rotate(60deg)
+            .shutter-wing.wing-2.open
+              left: -272px
+              top: 67px
+              transform: rotate(90deg)
+            .shutter-wing.wing-3.open
+              left: -327px
+              top: -61px
+              transform: rotate(120deg)
+            .shutter-wing.wing-4.open
+              left: -307px
+              top: -201px
+              transform: rotate(150deg)
+            .shutter-wing.wing-5.open
+              left: -222px
+              top: -311px
+              transform: rotate(180deg)
+            .shutter-wing.wing-6.open
+              left: -94px
+              top: -366px
+              transform: rotate(210deg)
+            .shutter-wing.wing-7.open
+              left: 45px
+              top: -347px
+              transform: rotate(240deg)
+            .shutter-wing.wing-8.open
+              left: 158px
+              top: -264px
+              transform: rotate(270deg)
+            .shutter-wing.wing-9.open
+              left: 211px
+              top: -137px
+              transform: rotate(300deg)
+            .shutter-wing.wing-10.open
+              left: 193px
+              top: 3px
+              transform: rotate(330deg)
+            .shutter-wing.wing-11.open
+              left: 107px
+              top: 114px
+              transform: rotate(360deg)
+            .shutter-wing.wing-12.open
+              left: -20px
+              top: 168px
+              transform: rotate(390deg)
+      .content
+        margin-left: 304px
+        min-height: 357px
+        padding-left: 25px
+        transition-duration: 1s
+        transition-property: min-height
+        .offers-list
+          border-bottom: 1px solid rgba(255, 255, 255, 0.05)
+          border-top: 1px solid rgba(0, 0, 0, 0.2)
+          min-height: 216px
+          .offer
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+            border-top: 1px solid rgba(255, 255, 255, 0.05)
+            color: #C6C6C6
+            display: block
+            padding: 15px 120px 15px 0
+            position: relative
+            .caption
+              display: block
+              font-family: Georgia,"Nimbus Roman No9 L",serif
+              font-size: 18px
+              font-style: italic
+              line-height: 24px
+              overflow: hidden
+              text-overflow: ellipsis
+              white-space: nowrap
+            .period
+              color: #598A12
+              display: block
+              font-size: 15px
+            .price
+              bottom: 20px
+              color: #4D9900
+              display: block
+              font-size: 21px
+              font-weight: bold
+              line-height: 24px
+              position: absolute
+              right: 0
+              transition-duration: 0.3s
+              transition-property: all
+          .offer:hover
+            .caption
+              color: #ffffff
+        .more-wrapper
+          padding: 20px 0
+          text-align: center
+          a.more
+            background-color: #76B718
+            border: 1px solid #70AE17
+            border-radius: 3px 3px 3px 3px
+            color: #FFFFFF
+            cursor: pointer
+            display: inline-block
+            font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+            font-size: 13px
+            height: 37px
+            line-height: 37px
+            min-width: 101px
+            padding: 2px 10px 2px 7px
+            text-align: center
+            transition-duration: 0.25s
+            transition-property: background-color, border-color, color
+            white-space: nowrap
+            span.icon
+              background: url("/app/images/layouts/more-icon.gif") no-repeat scroll center center transparent
+              display: inline-block
+              height: 16px
+              vertical-align: middle
+              width: 16px
+          a.more:hover
+            background-color: #82c9a1
+            border-color: #7cc019
+
+
+.l-page__specials-bottom
+  background: url("/app/images/layouts/header/background_bottom.png") repeat-x scroll 0 0 transparent
+  height: 12px
+  margin-bottom: -7px
+  z-index: 1010
+  .grid-bottom
+    background: url("/app/images/layouts/header/grid_bottom.png") repeat-y scroll 0 0 transparent
+    height: 6px
+    margin-left: -20px
+    width: 968px
+
+
+.l-page
+  .l-page__footer
+    bottom: 0
+    position: absolute
+    width: 100%
+    display: block
+
+
+
+
+.l-page__footer-top-offset
+  clearfix()
+  .inner
+    height: 27px
+
+
+
+.l-page__content
+  font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+  font-size: 14px
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7)
+  .main
+    margin-top: 32px
+    ol
+      color: #878787
+      font-size: 13px
+      font-weight: normal
+      text-indent: -20px
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7)
+      list-style: decimal inside none
+      margin: 13px 0px
+      padding-left: 35px
+
+    .left-column p, .center-column p, .right-column p
+      color: #878787
+      font-size: 13px
+      margin-bottom: 5px
+      text-indent: 15px
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7)
+    .left-column p:last-child, .center-column p:last-child, .right-column p:last-child
+      margin-bottom: 15px
+    .left-column
+      background: url("/app/images/layouts/main/vertical-delimiter.png") repeat-y scroll 0 0 transparent
+      display: table-cell
+      padding-right: 16px
+      width: 451px
+    .right-column
+      display: table-cell
+      padding-left: 16px
+      width: 448px
+    h2
+      color: #4A4A4A
+      font-size: 14px
+      font-weight: normal
+      margin: 9px 0 6px
+      text-align: center
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7)
+    p strong
+      font-weight: bold
+    .first, .second, .third, .fourth, .fifth
+      clear: both
+      height: 33px
+      margin-left: -17px
+      width: 961px
+    .first
+      background: url("/app/images/layouts/main/first.png") no-repeat scroll 0 0 transparent
+    .second
+      background: url("/app/images/layouts/main/second.png") no-repeat scroll 0 0 transparent
+    .third
+      background: url("/app/images/layouts/main/third.png") no-repeat scroll 0 0 transparent
+    .fourth
+      background: url("/app/images/layouts/main/fourth.png") no-repeat scroll 0 0 transparent
+    .fifth
+      background: url("/app/images/layouts/main/fifth.png") no-repeat scroll 0 0 transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.l-page__footer
+  background: url("/app/images/layouts/footer/background.gif") repeat-x scroll 0 0 transparent
+  font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+  height: 483px
+  z-index: 1010
+  div
+    position: relative
+  .l-page__center
+    height: 483px
+    .grid-horizontal
+      background: url("/app/images/layouts/footer/grid_horizontal.png") repeat-x scroll 0 0 transparent
+      height: 2px
+      margin-left: -18px
+      width: 320px
+    .grid, .grid-bottom
+      margin-left: -20px
+      position: absolute
+      width: 968px
+    .grid
+      background: url('/app/images/layouts/footer/grid.png') repeat-y scroll 0 0 transparent
+      height: 427px
+    .grid-bottom
+      background: url("/app/images/layouts/footer/grid_bottom.png") no-repeat scroll 0 0 transparent
+      bottom: 5px
+      height: 51px
+  .copyright
+    color: #FFFFFF
+    font-size: 15px
+    margin-top: 17px
+    text-align: center
+    .years
+      color: #878787
+  .block
+    float: left
+    margin-right: 38px
+    margin-top: 16px
+    width: 284px
+    .link.ideas-link
+      background: url("/app/images/layouts/footer/icons/ideas.png") no-repeat scroll 0 0 transparent
+      &:hover
+        background: url("/app/images/layouts/footer/icons/ideas-hover.png") no-repeat scroll 0 0 transparent
+    .link.specials-link
+      float: right
+      margin-top: 17px
+
+    .special
+      display: block
+      margin: 16px 0 6px
+      .clear
+        clear: left
+      .name.single
+        margin-left: 0
+      .name
+        color: #E8E8E8
+        font-size: 13px
+        margin-left: 80px
+      .text
+        color: #878787
+        font-size: 12px
+        height: 35px
+        overflow: hidden
+
+    .headline
+      color: #FFFFFF
+      font-size: 15px
+      margin-bottom: 35px
+      text-align: center
+      text-shadow: 0 -1px 0 #0E0E0E
+      .link
+        font-size: inherit
+        margin-bottom: 0
+        padding-left: 0
+    .link:hover
+      color: #ffffff
+    .link
+      color: #E8E8E8
+      display: block
+      font-size: 13px
+      margin-bottom: 19px
+      padding-left: 23px
+    .text
+      color: #878787
+      font-size: 13px
+    .text.about
+      margin-bottom: 30px
+      text-indent: 12px
+    .link.about-link
+      margin-left: 1px
+      padding-left: 21px
+      background: url("/app/images/layouts/footer/icons/about.png") no-repeat scroll 0 0 transparent
+      &:hover
+        background: url("/app/images/layouts/footer/icons/about-hover.png") no-repeat scroll 0 0 transparent
+    .link.contact-link
+      background: url("/app/images/layouts/footer/icons/contact.png") no-repeat scroll 0 0 transparent
+      &:hover
+        background: url("/app/images/layouts/footer/icons/contact-hover.png") no-repeat scroll 0 0 transparent
+    .link.agreement-link
+      background: url("/app/images/layouts/footer/icons/agreement.png") no-repeat scroll 0 0 transparent
+      &:hover
+        background: url("/app/images/layouts/footer/icons/agreement-hover.png") no-repeat scroll 0 0 transparent
+    .link.agents-link
+      background: url("/app/images/layouts/footer/icons/agents.png") no-repeat scroll 0 0 transparent
+      &:hover
+        background: url("/app/images/layouts/footer/icons/agents-hover.png") no-repeat scroll 0 0 transparent
+  .block.last
+    margin-right: -16px
