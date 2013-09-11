@@ -2,10 +2,9 @@
 @import 'global/_reset.styl'
 
 h1, h2, h3
-  font-family: "PFDinTextCondProThin",Tahoma,Arial,Verdana,sans-serif
+  font-family: "PFDinTextCondProThin", Tahoma, Arial, Verdana, sans-serif
   font-style: normal
   font-weight: normal
-
 
 .g-button-new
   background-color: #4A4A4A
@@ -21,7 +20,6 @@ h1, h2, h3
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8)
   transition-duration: 0.25s
   transition-property: color, background-color, border-color
-
 
 .l-page__center:before,
 .l-page__center:after
@@ -41,28 +39,30 @@ h1, h2, h3
 
 button, input, select, textarea
   color: #333333
-  font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+  font-family: "Myriad Pro", Helvetica, Arial, Tahoma, sans-serif
   font-size: 14px
   outline: medium none
 
 body
   cursor: default
   line-height: 17px
-  background: url("/app/images/global/gray_bg.gif") repeat scroll 0 0 #F2F2F2
-  font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+  //background: url("/app/images/global/gray_bg.gif") repeat scroll 0 0 #F2F2F2
+  background-color: #F2F2F2
+  height: 256px
+  font-family: "Myriad Pro", Helvetica, Arial, Tahoma, sans-serif
   font-size: 14px
   min-height: 100%
   color: #333333
   position: relative
   min-width: 958px
-  min-height: 2000px
   a
     color: #76B718
     text-decoration: none
   .l-page
     /* padding-bottom: 483px */
     header
-      background: url('/app/images/layouts/header/background.gif') repeat-x scroll 0 0 transparent
+      background-color: #343434
+      //background: url('/app/images/layouts/header/background.gif') repeat-x scroll 0 0 transparent
       z-index: 1010
       height: 44px
       .container
@@ -117,7 +117,7 @@ body
             margin-top: 7px
             & > *
               display: inline-block
-              font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+              font-family: "Myriad Pro", Helvetica, Arial, Tahoma, sans-serif
               font-size: 15px
               line-height: 24px
               text-shadow: 0 -1px 0 #0E0E0E
@@ -144,8 +144,9 @@ body
       .inner
         height: 34px
     .l-page__top-line
-      background: url("/app/images/global/gray_bg.gif") repeat scroll 0 0 #F2F2F2
-      font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+      //background: url("/app/images/global/gray_bg.gif") repeat scroll 0 0 #F2F2F2
+      background-color: #F2F2F2
+      font-family: "Myriad Pro", Helvetica, Arial, Tahoma, sans-serif
       font-size: 14px
       overflow: hidden
       .l-page__top-line__shadow
@@ -153,7 +154,7 @@ body
         .l-page__center
           .left-bar
             float: left
-            font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+            font-family: "Myriad Pro", Helvetica, Arial, Tahoma, sans-serif
             width: 272px
             .logo
               display: inline-block
@@ -176,7 +177,7 @@ body
               background: url("/app/images/layouts/short-menu__items.png") right -1px no-repeat
               color: #67A015
               display: inline-block
-              font-family: Georgia,"Nimbus Roman No9 L",serif
+              font-family: Georgia, "Nimbus Roman No9 L", serif
               font-size: 16px
               font-style: italic
               height: 40px
@@ -284,7 +285,6 @@ body
         border-bottom-left-radius: 8px
         border-top-left-radius: 8px
 
-
     table
       table-layout: fixed
       border-collapse: collapse
@@ -305,7 +305,7 @@ body
   .shadow
     margin: 0 -8px -27px !important
     padding: 0 8px 27px !important
-    background: url("/app/images/new/blocks/b-main-picker/shadow.png")  center bottom no-repeat !important
+    background: url("/app/images/new/blocks/b-main-picker/shadow.png") center bottom no-repeat !important
   .points-0
     .points-hint
       color: #333333
@@ -386,7 +386,7 @@ body
         margin: 0 auto
         top: 11px
         width: 50px
-        background: url('/app/images/blocks/b-main-picker/logo-32.png')  no-repeat scroll center 0 / 50px transparent
+        background: url('/app/images/blocks/b-main-picker/logo-32.png') no-repeat scroll center 0 / 50px transparent
 
       .g-text-field
         background-color: #598A12
@@ -423,16 +423,15 @@ body
 .g-button-new
   margin: 27px auto 30px
   width: 154px
+
 .g-button-new.disabled, .g-button-new.busy
   border: 1px solid #CACACA
   color: #FFFFFF
   cursor: default
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4)
+
 .g-button-new.disabled
   background: none repeat scroll 0 0 lightgrey
-
-
-
 
 .g-slider
   min-height: 24px
@@ -504,12 +503,12 @@ body
       top: 1px
       width: 0
 
-
 /*SPECIALS*/
 .l-page__specials
-  background: url('/app/images/global/dark-grey-noise.png')  repeat scroll 0 0 transparent
+  background-color: #343434
+  //background: url('/app/images/global/dark-grey-noise.png') repeat scroll 0 0 transparent
   color: #C6C6C6
-  font-family: "Myriad Pro", Helvetica,Arial,Tahoma,sans-serif
+  font-family: "Myriad Pro", Helvetica, Arial, Tahoma, sans-serif
   min-height: 502px
   overflow: hidden
   a
@@ -560,7 +559,7 @@ body
         white-space: nowrap
     .countries-menu
       float: left
-      font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+      font-family: "Myriad Pro", Helvetica, Arial, Tahoma, sans-serif
       font-size: 14px
       line-height: 42px
       margin: 10px -25px 0 0
@@ -576,7 +575,7 @@ body
       .item:hover
         color: #FFFFFF
         background-color: #333333
-      .item.active,.item:active
+      .item.active, .item:active
         background: none repeat scroll 0 0 #76B718
         color: #FFFFFF
       .item.active
@@ -690,7 +689,7 @@ body
             position: relative
             .caption
               display: block
-              font-family: Georgia,"Nimbus Roman No9 L",serif
+              font-family: Georgia, "Nimbus Roman No9 L", serif
               font-size: 18px
               font-style: italic
               line-height: 24px
@@ -725,7 +724,7 @@ body
             color: #FFFFFF
             cursor: pointer
             display: inline-block
-            font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+            font-family: "Myriad Pro", Helvetica, Arial, Tahoma, sans-serif
             font-size: 13px
             height: 37px
             line-height: 37px
@@ -745,7 +744,6 @@ body
             background-color: #82c9a1
             border-color: #7cc019
 
-
 .l-page__specials-bottom
   background: url("/app/images/layouts/header/background_bottom.png") repeat-x scroll 0 0 transparent
   height: 12px
@@ -757,26 +755,19 @@ body
     margin-left: -20px
     width: 968px
 
-
 .l-page
   .l-page__footer
-    bottom: 0
     position: absolute
     width: 100%
     display: block
-
-
-
 
 .l-page__footer-top-offset
   clearfix()
   .inner
     height: 27px
 
-
-
 .l-page__content
-  font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+  font-family: "Myriad Pro", Helvetica, Arial, Tahoma, sans-serif
   font-size: 14px
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7)
   .main
@@ -833,31 +824,10 @@ body
     .fifth
       background: url("/app/images/layouts/main/fifth.png") no-repeat scroll 0 0 transparent
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .l-page__footer
-  background: url("/app/images/layouts/footer/background.gif") repeat-x scroll 0 0 transparent
-  font-family: "Myriad Pro",Helvetica,Arial,Tahoma,sans-serif
+  background-color: #343434
+  //background: url("/app/images/layouts/footer/background.gif") repeat-x scroll 0 0 transparent
+  font-family: "Myriad Pro", Helvetica, Arial, Tahoma, sans-serif
   height: 483px
   z-index: 1010
   div
