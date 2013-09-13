@@ -1,1 +1,0 @@
-partial-glib.o partial-glib.o: partial-glib.c
