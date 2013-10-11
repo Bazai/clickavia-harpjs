@@ -1,0 +1,9 @@
+.dropdown_list.wrapper
+  input(type='text', size='30', ng-model='searchTerm', placeholder='{{placeholder}}', initial-type='{{ initialType }}')
+  .dropdown-menu(ng-show='isVisible')
+    ul.baron-container
+      li(class="dropdown-menu--item", ng-repeat='point in pointsList')
+        a( href='javascript:void(0);', ng-click='selectMe(point)', ng-class='{disabled: !point.exist_flights }')
+          span.title {{point.title}}
+          span.type {{point.type}}
+               

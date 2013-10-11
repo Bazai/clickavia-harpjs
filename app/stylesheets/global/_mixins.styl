@@ -1,0 +1,24 @@
+get_common_sprite()
+  background: url($root_image_path+'common_sprite.png') no-repeat
+get_main_sprite()
+  background: url($root_image_path+'main_sprite.png') no-repeat
+
+set_opacity(value)
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=value)"
+  opacity: (value/100)
+  -moz-opacity: (value/100)
+  -khtml-opacity: (value/100)
+
+
+set_placeholder_color(value1, value2)
+  ::-webkit-input-placeholder /* WebKit browsers */
+    color: value2
+
+    :-moz-placeholder /* Mozilla Firefox 4 to 18 */
+      color: value1
+
+  ::-moz-placeholder  /* Mozilla Firefox 19+ */
+    color: value1
+
+    :-ms-input-placeholder  /* Internet Explorer 10+ */
+      color: value1

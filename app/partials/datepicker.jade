@@ -1,0 +1,325 @@
+.main-picker(ng-controller="DatePickerCtrl")
+  .shadow.points-0
+  .container
+    .fields-line
+      .small-logo
+      .text-field.from
+        autocomplete(selected-item='selectedItem', placeholder='Откуда', type="location_from", initial-type="cities")
+      .text-field.to
+        autocomplete(selected-item='selectedItem', placeholder='Куда', type="location_to", initial-type="countries")
+    .points-hint Выберите одну, либо две даты
+    .month-slider.main-slider
+      .slide-display
+        .progress-bar.dates-checker
+          p.progress-bar-title
+          .progress-bar
+            span
+        .slide-line
+          .item.month
+            .caption Сентябрь
+            .table-wrapper
+              table.calendar
+                thead
+                  tr
+                    th Пн
+                    th Вт
+                    th Ср
+                    th Чт
+                    th Пт
+                    th Сб
+                    th Вс
+                tbody
+                  tr
+                    td.empty(data-original-title='')
+                    td.empty(data-original-title='')
+                    td.empty(data-original-title='')
+                    td.empty(data-original-title='')
+                    td.empty(data-original-title='')
+                    td.empty(data-original-title='')
+                    td.left.right(data-original-title='')
+                      span.wrapper 1
+                      span.point-wrapper
+                        span.point 1
+                  tr
+                    td.left(data-original-title='')
+                      span.wrapper 2
+                      span.point-wrapper
+                        span.point 2
+                    td(data-original-title='')
+                      span.wrapper 3
+                      span.point-wrapper
+                        span.point 3
+                    td(data-original-title='')
+                      span.wrapper 4
+                      span.point-wrapper
+                        span.point 4
+                    td(data-original-title='')
+                      span.wrapper 5
+                      span.point-wrapper
+                        span.point 5
+                    td(data-original-title='')
+                      span.wrapper 6
+                      span.point-wrapper
+                        span.point 6
+                    td(data-original-title='')
+                      span.wrapper 7
+                      span.point-wrapper
+                        span.point 7
+                    td.right(data-original-title='')
+                      span.wrapper 8
+                      span.point-wrapper
+                        span.point 8
+                  tr
+                    td.left(data-original-title='')
+                      span.wrapper 9
+                      span.point-wrapper
+                        span.point 9
+                    td(data-original-title='')
+                      span.wrapper 10
+                      span.point-wrapper
+                        span.point 10
+                    td(data-original-title='')
+                      span.wrapper 11
+                      span.point-wrapper
+                        span.point 11
+                    td(data-original-title='')
+                      span.wrapper 12
+                      span.point-wrapper
+                        span.point 12
+                    td(data-original-title='')
+                      span.wrapper 13
+                      span.point-wrapper
+                        span.point 13
+                    td(data-original-title='')
+                      span.wrapper 14
+                      span.point-wrapper
+                        span.point 14
+                    td.right(data-original-title='')
+                      span.wrapper 15
+                      span.point-wrapper
+                        span.point 15
+                  tr
+                    td.left(data-original-title='')
+                      span.wrapper 16
+                      span.point-wrapper
+                        span.point 16
+                    td(data-original-title='')
+                      span.wrapper 17
+                      span.point-wrapper
+                        span.point 17
+                    td(data-original-title='')
+                      span.wrapper 18
+                      span.point-wrapper
+                        span.point 18
+                    td(data-original-title='')
+                      span.wrapper 19
+                      span.point-wrapper
+                        span.point 19
+                    td(data-original-title='')
+                      span.wrapper 20
+                      span.point-wrapper
+                        span.point 20
+                    td(data-original-title='')
+                      span.wrapper 21
+                      span.point-wrapper
+                        span.point 21
+                    td.right(data-original-title='')
+                      span.wrapper 22
+                      span.point-wrapper
+                        span.point 22
+                  tr
+                    td.left(data-original-title='')
+                      span.wrapper 23
+                      span.point-wrapper
+                        span.point 23
+                    td(data-original-title='')
+                      span.wrapper 24
+                      span.point-wrapper
+                        span.point 24
+                    td(data-original-title='')
+                      span.wrapper 25
+                      span.point-wrapper
+                        span.point 25
+                    td(data-original-title='')
+                      span.wrapper 26
+                      span.point-wrapper
+                        span.point 26
+                    td(data-original-title='')
+                      span.wrapper 27
+                      span.point-wrapper
+                        span.point 27
+                    td(data-original-title='')
+                      span.wrapper 28
+                      span.point-wrapper
+                        span.point 28
+                    td.right(data-original-title='')
+                      span.wrapper 29
+                      span.point-wrapper
+                        span.point 29
+                  tr
+                    td.left.right(data-original-title='')
+                      span.wrapper 30
+                      span.point-wrapper
+                        span.point 30
+          .item.month
+            .caption Октябрь
+            .table-wrapper
+              table.calendar
+                thead
+                  tr
+                    th Пн
+                    th Вт
+                    th Ср
+                    th Чт
+                    th Пт
+                    th Сб
+                    th Вс
+                tbody
+                  tr
+                    td.empty(data-original-title='')
+                    td.left(data-original-title='')
+                      span.wrapper 1
+                      span.point-wrapper
+                        span.point 1
+                    td(data-original-title='')
+                      span.wrapper 2
+                      span.point-wrapper
+                        span.point 2
+                    td(data-original-title='')
+                      span.wrapper 3
+                      span.point-wrapper
+                        span.point 3
+                    td(data-original-title='')
+                      span.wrapper 4
+                      span.point-wrapper
+                        span.point 4
+                    td(data-original-title='')
+                      span.wrapper 5
+                      span.point-wrapper
+                        span.point 5
+                    td.right(data-original-title='')
+                      span.wrapper 6
+                      span.point-wrapper
+                        span.point 6
+                  tr
+                    td.left(data-original-title='')
+                      span.wrapper 7
+                      span.point-wrapper
+                        span.point 7
+                    td(data-original-title='')
+                      span.wrapper 8
+                      span.point-wrapper
+                        span.point 8
+                    td(data-original-title='')
+                      span.wrapper 9
+                      span.point-wrapper
+                        span.point 9
+                    td(data-original-title='')
+                      span.wrapper 10
+                      span.point-wrapper
+                        span.point 10
+                    td(data-original-title='')
+                      span.wrapper 11
+                      span.point-wrapper
+                        span.point 11
+                    td(data-original-title='')
+                      span.wrapper 12
+                      span.point-wrapper
+                        span.point 12
+                    td.right(data-original-title='')
+                      span.wrapper 13
+                      span.point-wrapper
+                        span.point 13
+                  tr
+                    td.left(data-original-title='')
+                      span.wrapper 14
+                      span.point-wrapper
+                        span.point 14
+                    td(data-original-title='')
+                      span.wrapper 15
+                      span.point-wrapper
+                        span.point 15
+                    td(data-original-title='')
+                      span.wrapper 16
+                      span.point-wrapper
+                        span.point 16
+                    td(data-original-title='')
+                      span.wrapper 17
+                      span.point-wrapper
+                        span.point 17
+                    td(data-original-title='')
+                      span.wrapper 18
+                      span.point-wrapper
+                        span.point 18
+                    td(data-original-title='')
+                      span.wrapper 19
+                      span.point-wrapper
+                        span.point 19
+                    td.right(data-original-title='')
+                      span.wrapper 20
+                      span.point-wrapper
+                        span.point 20
+                  tr
+                    td.left(data-original-title='')
+                      span.wrapper 21
+                      span.point-wrapper
+                        span.point 21
+                    td(data-original-title='')
+                      span.wrapper 22
+                      span.point-wrapper
+                        span.point 22
+                    td(data-original-title='')
+                      span.wrapper 23
+                      span.point-wrapper
+                        span.point 23
+                    td(data-original-title='')
+                      span.wrapper 24
+                      span.point-wrapper
+                        span.point 24
+                    td(data-original-title='')
+                      span.wrapper 25
+                      span.point-wrapper
+                        span.point 25
+                    td(data-original-title='')
+                      span.wrapper 26
+                      span.point-wrapper
+                        span.point 26
+                    td.right(data-original-title='')
+                      span.wrapper 27
+                      span.point-wrapper
+                        span.point 27
+                  tr
+                    td.left(data-original-title='')
+                      span.wrapper 28
+                      span.point-wrapper
+                        span.point 28
+                    td(data-original-title='')
+                      span.wrapper 29
+                      span.point-wrapper
+                        span.point 29
+                    td(data-original-title='')
+                      span.wrapper 30
+                      span.point-wrapper
+                        span.point 30
+                    td.right(data-original-title='')
+                      span.wrapper 31
+                      span.point-wrapper
+                        span.point 31
+      .left-nav-placeholder
+      .right-nav-placeholder
+      span.nav.prev
+        span.inner
+      span.nav.next.enabled
+        span.inner
+    .collapse-trigger(title='Развернуть')
+      .inner
+      .arrow
+    .clear-dates
+      span Сбросить
+      | [
+      span.button
+      | ]
+  .button-new.search-button.disabled Найти
+
+
+

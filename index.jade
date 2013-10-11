@@ -1,0 +1,88 @@
+!!! 5
+html.ng-app(lang='ru-RU')
+  head
+    title Clickavia
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', type='text/css', media='all', href='app/stylesheets/app.css')
+  body
+    .main-container
+      .header
+        .wrap.page-wrap
+          .container
+            .brd_left
+            .logo
+              a.inline-logo(href='/')
+            .social-links
+              a.facebook(title='Группа Clickavia в Facebook', href='http://www.facebook.com/home.php?sk=group_192901367386943', target='_blank')
+              a.twitter(title='Наш Twitter', href='http://www.twitter.com/clickavia', target='_blank')
+              a.vkontakte(title='Группа Clickavia в Facebook', href='http://www.facebook.com/home.php?sk=group_192901367386943', target='_blank')
+            .user-control
+              #devise
+                #user_auth
+                  a(hred='/login') Войдите
+                  span.or  или 
+                  a#sign_up_link(href='/register') Зарегистрируйтесь
+            .brd_right
+      .header__bottom
+        .page-wrap
+          .grid-bottom
+      .header__top-offset.page-wrap
+        .inner
+         .inside_border
+      .partial-content.ng-view
+      .footer-top-offset.page-wrap.clearfix
+        .inner
+      .footer
+        .footer__border-block
+          .page-wrap
+              .grid
+              .grid-bottom.grid-horizontal
+                .copyright
+                  | Clickavia
+                  span.years 2008-2013
+              .blocks
+                .block
+                  .headline
+                    a.link(href='http://localhost:3000/pages/about')
+                      | Информация о компании
+                  .text.about
+                    | Компания Клик Авиа на сегодняшний день является одной из самых популярных систем бронирования чартерных авиабилетов, объединяющая в себе максимальное удобство ее использования, экономию времени на подбор рейса и приобретение билетов на него, а также предлагающая выбор любого способа оплаты.
+                  a.link.about-link(href='http://localhost:3000/pages/about') О компании
+                  a.link.contact-link(href='http://localhost:3000/pages/contacts') Контактная информация
+                  a.link.agreement-link(href='http://localhost:3000/agreement') Публичная оферта
+                  a.link.agents-link(href='http://localhost:3000/help/how-to-buy') Как купить билет
+                .block.left_footer_border.right_footer_border
+                .block.last
+                  .headline
+                    a.link(href='http://localhost:3000/directions') Наши направления
+                  .grid-horizontal
+                  a.special(href='http://localhost:3000/country/bulgaria')
+                    .name.single
+                      | Болгария
+                    .text
+                      | Равнодушным к Болгарии остаться просто невозможно. Великолепие живописных...
+                    .clear
+                  .grid-horizontal
+                  a.special(href='http://localhost:3000/country/chernogoria')
+                    .name.single
+                      | Черногория
+                    .text
+                      | На территории этой прекрасной страны находится огромное количество исторических и...
+                    .clear
+                  .grid-horizontal
+                  a.special(href='http://localhost:3000/country/italy')
+                    .name.single
+                      | Италия
+                    .text
+                      | Около 60% культурных ценностей Европы сосредоточено в этой удивительной стране....
+                    .clear
+                  .grid-horizontal
+                  a.special(href='http://localhost:3000/country/india')
+                    .name.single
+                      | Индия
+                    .text
+                      | В Индии, стране с богатейшими природными условиями, зародилась одна из древнейших...
+                    .clear
+                  .grid-horizontal
+                  a.link.ideas-link.specials-link(href='http://localhost:3000/directions') Все направления
+    script(data-main='app/js/main', src='/web-site/bower_components/requirejs/require.js')
